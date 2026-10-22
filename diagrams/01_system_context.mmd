@@ -1,0 +1,21 @@
+flowchart LR
+    SP["Salesperson<br/>Own calls and review"]
+    MG["Sales manager<br/>Team dashboard and review"]
+    AN["Analyst<br/>Authorized reports"]
+    AD["Administrator<br/>Access and retention"]
+    CRM["External CRM<br/>Authorized CSV export"]
+    AUDIO["Authorized audio source<br/>WAV / MP3 recording"]
+
+    subgraph SAS["Sales Analytics System — proposed boundary"]
+        APP["Controlled import<br/>Transcription and evidence<br/>Human review<br/>Scoped analytics and export"]
+    end
+
+    SP -->|Own scope| APP
+    MG -->|Team scope| APP
+    AN -->|Report scope| APP
+    AD -->|Administration scope| APP
+    CRM -->|CSV import only| APP
+    AUDIO -->|Authorized upload| APP
+
+    %% No automatic CRM writes and no live connector in the initial scope.
+    %% All connections describe proposed capabilities, not an implemented system.

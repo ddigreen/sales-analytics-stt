@@ -1,0 +1,29 @@
+# Local credentials and personal data
+.env
+.env.*
+!.env.example
+!config/.env.example
+credentials*
+secrets/
+data/raw/
+data/private/
+recordings/
+transcripts/private/
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.pem
+*.key
+# Generated runtime content
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+dist/
+build/
+.pytest_cache/
+.coverage
+coverage/
+*.log
+.DS_Store
