@@ -1,0 +1,373 @@
+{
+  "method": "Desk research; official documentation only; no product accounts or benchmarks used.",
+  "sources": [
+    {
+      "id": "G1",
+      "title": "Gong Conversation Intelligence",
+      "url": "https://www.gong.io/conversation-intelligence",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Calls/meetings captured, transcribed, analyzed.",
+        "Topics, objections, competitor mentions, buying signals, dashboards, scorecards and coaching described."
+      ],
+      "limitation": "Vendor capability statement; no measured performance accepted."
+    },
+    {
+      "id": "G2",
+      "title": "Gong Explore call content",
+      "url": "https://help.gong.io/docs/explore-call-content",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Speaker-attributed full transcript, search, timestamp navigation.",
+        "CRM association and points of interest described."
+      ],
+      "limitation": "Translated-call transcripts are not searchable according to this guide."
+    },
+    {
+      "id": "G3",
+      "title": "Gong CRM integrations",
+      "url": "https://help.gong.io/docs/crm-integrations",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Connects conversations/activities with CRM data.",
+        "Salesforce, HubSpot and Microsoft Dynamics documented."
+      ],
+      "limitation": "Specific capabilities vary by connector."
+    },
+    {
+      "id": "G4",
+      "title": "Gong Analyze team performance",
+      "url": "https://help.gong.io/docs/en/analyze-team-performance",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Interaction statistics, topics, trackers and scorecards described."
+      ],
+      "limitation": "Statistics are observational rather than causal evidence of sales improvement."
+    },
+    {
+      "id": "G5",
+      "title": "Gong About language support",
+      "url": "https://help.gong.io/docs/what-languages-are-supported-in-gong",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Updated July 13 2026.",
+        "Supported call/transcript language list includes Kazakh (Kazakhstan) and Russian (Russia).",
+        "Spoken-language, translation and UI settings are separate."
+      ],
+      "limitation": "Listing a language does not establish accuracy on local mixed-language calls."
+    },
+    {
+      "id": "G6",
+      "title": "Gong Plans and seats",
+      "url": "https://help.gong.io/docs/plans-and-seats",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Foundation core license precedes specialized applications; seats determine access."
+      ],
+      "limitation": "No exact price or contract terms verified."
+    },
+    {
+      "id": "S1",
+      "title": "Salesloft CI general availability announcement",
+      "url": "https://www.salesloft.com/company/newsroom/salesloft-conversation-intelligence",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Published July 14 2026; explicitly says generally available.",
+        "Summaries, action items, CRM updates, live coaching, auto scoring, cross-call trends, mobile in-person recording announced."
+      ],
+      "limitation": "Vendor announcement; rollout/package availability requires confirmation."
+    },
+    {
+      "id": "S2",
+      "title": "Salesloft Call Review Page UI Reference",
+      "url": "https://help.salesloft.com/s/article/Conversation-Intelligence-Call-Review-Page-UI-Reference?language=en_US",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "September 29 2026 support article.",
+        "Call review includes transcript, AI insights, CRM data and scoring/sharing/downloading actions."
+      ],
+      "limitation": "Search index exposed substantive support text; direct page rendered CSS/loading error."
+    },
+    {
+      "id": "S3",
+      "title": "Salesloft Integrate Salesforce with Conversation Intelligence",
+      "url": "https://help.salesloft.com/s/article/Integrate-Salesforce-with-Conversation-Intelligence?language=en_US",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Recordings, AI summaries and metrics sync to Salesforce; action items write as tasks.",
+        "Guide says Salesforce is only fully supported CRM."
+      ],
+      "limitation": "Describes this CI integration; must not generalize to every Salesloft CRM capability."
+    },
+    {
+      "id": "S4",
+      "title": "Salesloft Topics and Filters",
+      "url": "https://help.salesloft.com/s/article/Set-Up-Topics-and-Filters-in-Conversation-Intelligence?language=en_US",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "October 1 2026 support article.",
+        "Keyword/Smart Topics, dashboards and filters; admin, feature flag and Advanced AI configuration conditions."
+      ],
+      "limitation": "Some organizations may have feature flag restrictions."
+    },
+    {
+      "id": "S5",
+      "title": "Salesloft Conversations Transcripts",
+      "url": "https://help.salesloft.com/s/article/Conversations-Transcripts?language=en_US",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "April 14 2026 legacy Conversations guide.",
+        "Transcript search/download and language detection list includes Russian."
+      ],
+      "limitation": "Kazakh not listed; old/new unified product parity not verified. Do not state unsupported."
+    },
+    {
+      "id": "S6",
+      "title": "Salesloft conversational intelligence landing page",
+      "url": "https://www.salesloft.com/lp/conversational-intelligence",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Page describes automatic transcription/analysis/summaries and says six languages."
+      ],
+      "limitation": "Conflicts with longer legacy support language list; avoided assigning a language count to current unified product."
+    },
+    {
+      "id": "H1",
+      "title": "HubSpot Review call recordings and transcripts",
+      "url": "https://knowledge.hubspot.com/calling/review-call-recordings-and-transcripts",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Updated October 9 2026.",
+        "Call/third-party recording, transcripts, speaker stats, comments, summaries, playlists and associations described.",
+        "Professional/Enterprise seat required for transcription; Enterprise tracked-term reporting."
+      ],
+      "limitation": "Some conferencing recordings are meeting records; feature gates matter."
+    },
+    {
+      "id": "H2",
+      "title": "HubSpot language offerings",
+      "url": "https://knowledge.hubspot.com/help-and-resources/hubspot-language-offerings",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Automatic call and meeting transcription language section includes English, Kazakh and Russian."
+      ],
+      "limitation": "UI language availability is a different section and not conflated with transcription."
+    },
+    {
+      "id": "D1",
+      "title": "Microsoft Conversation intelligence FAQs",
+      "url": "https://learn.microsoft.com/en-us/dynamics365/sales/faq-conversation-intelligence",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Compares Dynamics Sales CI with Microsoft 365 Sales agent.",
+        "Dynamics supports Teams calls/meetings paths, CRM summary logging, editable summaries, manager dashboards/coaching."
+      ],
+      "limitation": "Some data updates can take up to 12 hours; not claiming all dashboards are live."
+    },
+    {
+      "id": "D2",
+      "title": "Microsoft Call summary page",
+      "url": "https://learn.microsoft.com/en-us/dynamics365/sales/view-and-understand-call-summary-sales-app",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Timeline, written transcript, comments, translation and keyword highlighting described."
+      ],
+      "limitation": "Authorization notice appeared, but substantive indexed/page text accessible."
+    },
+    {
+      "id": "D3",
+      "title": "Microsoft CI language support",
+      "url": "https://learn.microsoft.com/en-us/dynamics365/sales/language-support-conversation-intelligence",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Updated May 29 2026; insight availability differs by language.",
+        "English transcribed natively; Russian/Kazakh absent from reviewed CI matrix."
+      ],
+      "limitation": "Absence from this matrix is documented evidence status, not claim of universal product unavailability."
+    },
+    {
+      "id": "D4",
+      "title": "Microsoft Overall sales and seller insights",
+      "url": "https://learn.microsoft.com/en-us/dynamics365/sales/dynamics365-sales-insights-app-home-page",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Team/seller insights include sentiment, keywords, competitors and interaction comparisons."
+      ],
+      "limitation": "Do not interpret observed talk ratios as causal recommendations."
+    },
+    {
+      "id": "D5",
+      "title": "Microsoft Enable and configure Sales Insights",
+      "url": "https://learn.microsoft.com/en-us/dynamics365/sales/intro-admin-guide-sales-insights",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Eligible licenses and administrator setup described.",
+        "Sales Enterprise includes limited monthly capacity for selected premium features."
+      ],
+      "limitation": "License/capacity conditions may change; no price comparison made."
+    },
+    {
+      "id": "T1",
+      "title": "FastAPI features",
+      "url": "https://fastapi.tiangolo.com/features/",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Python type/Pydantic validation, OpenAPI and interactive docs."
+      ],
+      "limitation": "Framework performance marketing not used."
+    },
+    {
+      "id": "T2",
+      "title": "Django at a glance",
+      "url": "https://docs.djangoproject.com/en/6.1/intro/overview/",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "ORM/database-driven model and generated administrative interface."
+      ],
+      "limitation": "No comparative framework speed conclusion."
+    },
+    {
+      "id": "T3",
+      "title": "NestJS first steps",
+      "url": "https://docs.nestjs.com/first-steps",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "TypeScript/Node.js, modules/controllers/services."
+      ],
+      "limitation": "Python worker separation is project-specific architectural inference."
+    },
+    {
+      "id": "T4",
+      "title": "PostgreSQL constraints",
+      "url": "https://www.postgresql.org/docs/current/ddl-constraints.html",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Check, unique, primary key and foreign key constraints documented."
+      ],
+      "limitation": "No database benchmark performed."
+    },
+    {
+      "id": "T5",
+      "title": "PostgreSQL JSON types",
+      "url": "https://www.postgresql.org/docs/current/datatype-json.html",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "JSON/JSONB storage, JSONB indexing."
+      ],
+      "limitation": "Does not establish query speed for proposed application."
+    },
+    {
+      "id": "T6",
+      "title": "Appropriate Uses for SQLite",
+      "url": "https://www.sqlite.org/whentouse.html",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Embedded/device-local use; one concurrent writer per database file; client/server advised for many concurrent writers."
+      ],
+      "limitation": "SQLite may be sufficient for a small demonstration."
+    },
+    {
+      "id": "T7",
+      "title": "MongoDB data modeling",
+      "url": "https://www.mongodb.com/docs/manual/data-modeling/",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Flexible polymorphic documents; embedding/referencing and access-pattern-based design."
+      ],
+      "limitation": "Not claiming MongoDB cannot join or transact."
+    },
+    {
+      "id": "T8",
+      "title": "Whisper official repository",
+      "url": "https://github.com/openai/whisper",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Downloadable multilingual speech recognition models; memory/speed tradeoffs.",
+        "Repository says real speed depends on hardware/language and performance varies widely by language."
+      ],
+      "limitation": "No application-specific WER or local latency yet measured."
+    },
+    {
+      "id": "T9",
+      "title": "Azure Speech-to-text overview",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-to-text",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Real-time, fast and batch speech recognition; custom speech; feature-specific language support."
+      ],
+      "limitation": "Latest page October 19 2026. Exact language/region model must be checked before selecting."
+    },
+    {
+      "id": "T10",
+      "title": "Google Cloud batch recognition",
+      "url": "https://cloud.google.com/speech-to-text/docs/batch-recognize",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Asynchronous long audio recognition through long-running operation; requires Cloud Storage for batch input."
+      ],
+      "limitation": "Quota/pricing not compared."
+    },
+    {
+      "id": "T11",
+      "title": "Google Cloud STT supported languages",
+      "url": "https://docs.cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Model/region/feature matrix includes Kazakh kk-KZ Chirp 3 in US region."
+      ],
+      "limitation": "Feature availability varies; language list alone cannot rank accuracy."
+    },
+    {
+      "id": "T12",
+      "title": "FastAPI Background Tasks",
+      "url": "https://fastapi.tiangolo.com/tutorial/background-tasks/",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "After-response background tasks; heavier multi-process computation may benefit from Celery."
+      ],
+      "limitation": "In-process execution does not itself supply durable queue behavior."
+    },
+    {
+      "id": "T13",
+      "title": "Celery introduction",
+      "url": "https://docs.celeryq.dev/en/stable/getting-started/introduction.html",
+      "source_type": "Official vendor/project documentation",
+      "accessed": "2026-10-21",
+      "evidence_summary": [
+        "Dedicated workers monitor tasks; broker delivers messages; supports distributed work."
+      ],
+      "limitation": "Delivery/retry/result durability requires explicit configuration; no exactly-once guarantee claimed."
+    }
+  ]
+}

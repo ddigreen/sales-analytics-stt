@@ -1,0 +1,33 @@
+flowchart LR
+    subgraph SYSTEM["Sales Analytics System — proposed components"]
+        UI["Web UI<br/>Import / review / dashboard"]
+        API["FastAPI API<br/>Authentication and scoped authorization<br/>CSV ingest / link / query / search<br/>Review / analytics / export"]
+        DB[("PostgreSQL<br/>Metadata / segments / extractions<br/>Revisions / job states / audit")]
+        STORE[("Private object store<br/>Authorized audio<br/>Restricted object access")]
+        QUEUE["Redis broker<br/>Celery task queue<br/>ASR and deletion jobs"]
+        subgraph WORKER["Python / Celery worker — asynchronous"]
+            ASR["Whisper ASR<br/>Optional diarization"]
+            EXTRACT["Evidence extraction<br/>Draft observations"]
+            DELETE["Retention / deletion handler<br/>Reconciled cleanup"]
+        end
+        EVAL["Offline evaluation<br/>Versioned test data and metrics"]
+
+        UI -->|HTTPS / role scope| API
+        API -->|Authorized metadata and queries| DB
+        API -->|Store authorized audio| STORE
+        API -->|Enqueue job IDs| QUEUE
+        QUEUE -->|Consume jobs / bounded retries| WORKER
+        ASR --> EXTRACT
+        STORE -->|Read authorized audio| WORKER
+        DELETE -->|Delete authorized objects| STORE
+        WORKER -->|Versioned results / status / audit| DB
+        DELETE -->|Delete derivatives / retain content-free audit| DB
+        EVAL -.->|Permitted versioned evaluation data| DB
+    end
+
+    %% Audio transfers use private object access; queue messages contain identifiers,
+    %% not full recordings. Job completion is persisted in PostgreSQL.
+    %% Retention requests pass through API authorization and asynchronous deletion jobs.
+    %% A backup expiry policy is required; deleting active data does not erase backups instantly.
+    %% CSV is the mandatory initial CRM interface; FR16 live connector is deferred.
+    %% No component writes automatic updates back to a CRM.

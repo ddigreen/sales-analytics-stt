@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+<rect width="1200" height="820" fill="white"/>
+<g font-family="Arial, sans-serif" fill="black" font-size="23">
+<rect x="12" y="12" width="1176" height="796" fill="white" stroke="black" stroke-width="2"/>
+<text x="32" y="48" font-size="25" font-weight="700">Calls  /  C-201  /  Review</text>
+<text x="32" y="86" font-size="22" font-weight="400">Proposed example · Mixed Russian and Kazakh · Demo data</text>
+<rect x="32" y="108" width="1136" height="58" fill="white" stroke="black" stroke-width="2"/>
+<text x="49" y="145" font-size="23" font-weight="400">Deal D-201   |   Imported CRM outcome: Open   |   View linked calls →</text>
+<rect x="32" y="186" width="650" height="492" fill="white" stroke="black" stroke-width="2"/>
+<rect x="702" y="186" width="466" height="492" fill="white" stroke="black" stroke-width="2"/>
+<text x="49" y="222" font-size="25" font-weight="700">Original transcript</text>
+<text x="49" y="255" font-size="20" font-weight="400">Speaker roles confirmed by reviewer</text>
+<text x="49" y="295" font-size="22" font-weight="400">00:12  Salesperson</text>
+<text x="49" y="325" font-size="22" font-weight="400">Пилотты қашан бастай аласыз?</text>
+<rect x="45" y="343" width="624" height="111" fill="white" stroke="black" stroke-width="2"/>
+<text x="57" y="375" font-size="22" font-weight="400">01:10  Customer</text>
+<text x="57" y="405" font-size="22" font-weight="400">Сейчас бюджет ограничен. Алдымен</text>
+<text x="57" y="435" font-size="22" font-weight="400">шағын пилоттан бастайық.</text>
+<text x="49" y="493" font-size="22" font-weight="400">02:03  Salesperson</text>
+<text x="49" y="523" font-size="22" font-weight="400">Хорошо, подготовлю предложение</text>
+<text x="49" y="553" font-size="22" font-weight="400">для небольшого пилота.</text>
+<text x="49" y="598" font-size="22" font-weight="400">02:41  Customer</text>
+<text x="49" y="628" font-size="22" font-weight="400">Иә, жұмаға дейін жіберіңіз.</text>
+<text x="719" y="222" font-size="25" font-weight="700">Draft observations</text>
+<rect x="718" y="243" width="434" height="159" fill="white" stroke="black" stroke-width="2"/>
+<text x="732" y="273" font-size="22" font-weight="700">Objection · DRAFT</text>
+<text x="732" y="307" font-size="22" font-weight="400">Customer refused the offer.</text>
+<text x="732" y="337" font-size="22" font-weight="400">Inspect evidence at 01:10 →</text>
+<text x="732" y="379" font-size="21" font-weight="400">Correct to: budget / smaller pilot</text>
+<rect x="718" y="422" width="434" height="146" fill="white" stroke="black" stroke-width="2"/>
+<text x="732" y="453" font-size="22" font-weight="700">Next step mentioned in the call</text>
+<text x="732" y="489" font-size="21" font-weight="400">Send a smaller-pilot proposal.</text>
+<text x="732" y="518" font-size="21" font-weight="400">Check owner and due-date evidence.</text>
+<text x="732" y="547" font-size="21" font-weight="400">Evidence: 02:03 and 02:41 →</text>
+<text x="719" y="607" font-size="23" font-weight="700">[ Save correction ]</text>
+<text x="719" y="649" font-size="23" font-weight="700">[ Confirm supported item ]</text>
+<rect x="32" y="698" width="1136" height="54" fill="white" stroke="black" stroke-width="2"/>
+<text x="48" y="731" font-size="22" font-weight="400">Audio unavailable in this prototype · timestamp selects the source passage</text>
+<text x="32" y="785" font-size="21" font-weight="400">Review trail: actor, time, original value, correction and evidence version</text>
+</g></svg>

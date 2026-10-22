@@ -1,0 +1,14 @@
+# Questions to prepare for the checkpoint
+
+These are discussion prompts for the team, not a script to memorize. Each member should be able to show the relevant source, diagram or requirement and explain the decision in their own words.
+
+1. Why build this when commercial products exist? The project investigates a small reproducible pipeline with explicit record joins, reviewable evidence and a local language evaluation. Multilingual transcription alone is already offered by some compared products. No superiority claim has been established.
+2. What connects a call to a sale? A source-scoped call identifier maps explicitly to an existing internal deal identifier. One deal can have several calls. The model does not guess the link or overwrite the imported CRM outcome.
+3. Why keep a next-step commitment separate from a sale? A commitment may not lead to a completed transaction. The 2026 framework's broad WON definition illustrates why outcome definitions must be checked before comparing scores.
+4. Why is sentiment not the main success measure? Sentiment can refer to a particular entity and can coexist with resistance or a successful deal. The project needs observed CRM outcomes, contextual objection labels and direct evidence for commitments.
+5. What did the public dataset analysis demonstrate? It demonstrated data structure, unknown categories and class imbalance. It did not test STT, local users or the value of speech-derived features. Its 88.73% majority accuracy is an arithmetic warning about an unsuitable metric.
+6. How will speech quality be measured? With held-out reference transcripts, declared normalization, per-language WER, business-entity accuracy and timestamp checks. Extraction is evaluated on both gold and ASR transcripts to separate transcription errors from extraction errors.
+7. Why is a fluent summary insufficient? The sales-call summarization paper reports a configuration with higher ROUGE but lower factuality. Each displayed consequential item therefore needs evidence and a review path.
+8. What happens to a failed job? The job remains failed or is retried under bounded rules. It does not change the CRM sales outcome. Reprocessing must preserve input identity and approved transcript revisions.
+9. Which work is still pending? Actual stakeholder evidence, client recording permission, supervisor review and revisions, genuine YouTrack/project links, and prospective contribution/review history. Model and user-study targets are plans for later evaluation.
+10. What should each student demonstrate? Their own reviewed source notes and substantive changes, their assigned design decisions, and later the trace from a real issue to a reviewed deliverable and its validation evidence.

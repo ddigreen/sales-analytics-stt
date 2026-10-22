@@ -1,0 +1,10 @@
+﻿ID,Impact,Risk,Owner short name,Trigger,Response
+R01,High,No authorized real recordings or joinable sales outcomes,Bekzat,No approved data agreement by 23 October,Use synthetic UX only; evaluate public ASR corpus separately; explicitly report inability to test sales feature gain.
+R02,High,Poor Kazakh Russian or mixed language accuracy,Diasbek,Language target missed or key entity errors,Run stratified pilot; expose correction; narrow supported scope; compare ASR alternatives.
+R03,High,ASR or summary invents an objection or amount,Diasbek,Unsupported evidence or numeric commitment,Require segment evidence and human approval; preserve raw transcript revision; reject unsupported items.
+R04,High,Label leakage inflates conversion prediction,Bekzat,Features unavailable at decision time or client overlap across split,Define prediction time; exclude duration for pre call model and post outcome text; split by customer and time.
+R05,High,Customer personal data exposed,Bekzat,Unprotected object or secrets in proposed tracked files,Private storage role tests anonymized exports content free logs and documented deletion.
+R06,Medium,GPU memory or inference latency exceeds budget,Diasbek,RTF or memory target missed,Benchmark smaller quantized model; process jobs asynchronously; cap pilot size and report hardware.
+R07,High,Interviews supervisor review and real history missing,Dameli,Evidence missing on 23 October,Schedule real discussions and review; keep pending status; do not manufacture evidence or backdate history.
+R08,Medium,Existing product support or pricing changes,Dameli,Vendor document differs before defense,Recheck official capability pages; use verified language lists; distinguish vendor description from tested behavior.
+R09,Medium,Scope expands into live coaching and automated staff assessment,Bekzat,New request bypasses checkpoint scope,Record change request and capacity impact; prioritize mandatory CSV post call features first.

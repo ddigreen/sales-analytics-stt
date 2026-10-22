@@ -1,0 +1,14 @@
+# Git and YouTrack preparation
+
+Setup snapshot before package publication on 23 October 2026: the private repository https://github.com/ddigreen/sales-analytics-stt exists with its initial README commit only. Dameli (daminkavitaminka) has accepted collaborator access. Bekzat (gojosatorukz) has been invited and must accept. Package publication, supervisor/committee access, pull requests, reviews, a submission tag and YouTrack setup remain pending.
+
+1. The team reviews the report, research sources, architecture and proposed allocations, corrects English name spellings, and records real supervisor feedback.
+2. Keep the existing private ddigreen/sales-analytics-stt repository. Diasbek uses ddigreen, Dameli uses daminkavitaminka and Bekzat uses gojosatorukz. Dameli has accepted access; Bekzat must accept his invitation. Verify supervisor access and arrange committee access before defense. Use each student's identifiable account and genuine commit author details.
+3. Check .gitignore and staged files; exclude recordings, private data, credentials, original applications containing contact details and environment files. Examples must contain placeholders only. Add a code license only after the team chooses one; citation metadata is not permission to redistribute publisher PDFs.
+4. Create a YouTrack project and map planning/backlog.csv into real fields. Map local work item labels to actual issue IDs; assign accounts, priorities and deadlines. Add the genuine project URL to README. No external YouTrack project is represented as existing.
+5. Use main as reviewed baseline. Each real task uses a branch such as REALISSUE-23-csv-validation. Include the genuine issue ID in commits and PR descriptions. Each teammate must review another student's work. Store review changes, not just approvals.
+6. Record substantive progress from this date forward as actual work occurs, including research/design changes. Do not backdate, split files into meaningless commits, invent reviews or claim this initial research and design draft as evidence of past contributions.
+7. At the approved checkpoint, tag the actual submitted commit pre-defense-1; later use pre-defense-2 and final-pre-defense at their real milestones. Keep existing tags stable. Record completed work, limitations and outstanding tasks.
+8. Rehearse tracing one real YouTrack issue to its branch, PR review, revised deliverable and accepted test result. Keep this same repository through the diploma project.
+
+Minimum unresolved items: package publication, real YouTrack project/task IDs and assignees, team/supervisor access, genuine progressive contributions from every student, review history, the actual checkpoint tag, and execution commands when runnable code exists. The initial README commit does not satisfy those history requirements.

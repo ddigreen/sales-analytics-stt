@@ -1,0 +1,64 @@
+@startuml
+title Sales Analytics System — proposed UML use cases
+left to right direction
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam defaultFontSize 22
+skinparam actorStyle stickman
+skinparam usecase {
+  BackgroundColor #F4F8FC
+  BorderColor #25435B
+}
+skinparam rectangle {
+  BackgroundColor #FFFFFF
+  BorderColor #25435B
+}
+
+actor "Salesperson\n(own calls)" as SP
+actor "Sales manager\n(team calls)" as MG
+actor "Analyst\n(authorized reports)" as AN
+actor "Administrator\n(access / retention)" as AD
+
+rectangle "Sales Analytics System" {
+  usecase "Log in" as LOGIN
+  usecase "Import CSV /\nlink call" as IMPORT
+  usecase "Upload authorized\naudio" as UPLOAD
+  usecase "Track processing\njob" as TRACK
+  usecase "Inspect transcript /\nevidence" as INSPECT
+  usecase "Correct / approve\nitems" as REVIEW
+  usecase "View / filter / export\nanalytics" as ANALYTICS
+  usecase "Administer access /\nretention / deletion" as ADMIN
+}
+
+SP -- LOGIN
+MG -- LOGIN
+AN -- LOGIN
+AD -- LOGIN
+SP -- IMPORT
+SP -- UPLOAD
+SP -- TRACK
+SP -- INSPECT
+SP -- REVIEW
+SP -- ANALYTICS
+MG -- IMPORT
+MG -- UPLOAD
+MG -- TRACK
+MG -- INSPECT
+MG -- REVIEW
+MG -- ANALYTICS
+AN -- ANALYTICS
+AD -- ADMIN
+
+note bottom of IMPORT
+  CSV is mandatory; ambiguous joins are rejected.
+end note
+note bottom of ADMIN
+  Own/team users may request deletion through an approved workflow.
+  The administrator executes authorized retention/deletion jobs.
+  Administrative authority does not automatically grant call-content access.
+end note
+note bottom of ANALYTICS
+  All access is scoped by API authorization.
+  No automatic CRM writes; live connector deferred.
+end note
+@enduml
