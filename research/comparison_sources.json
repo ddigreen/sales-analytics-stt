@@ -368,6 +368,19 @@
         "Dedicated workers monitor tasks; broker delivers messages; supports distributed work."
       ],
       "limitation": "Delivery/retry/result durability requires explicit configuration; no exactly-once guarantee claimed."
+    },
+    {
+      "id": "S7",
+      "title": "Salesloft Conversation Intelligence in Salesloft",
+      "url": "https://help.salesloft.com/s/article/Conversation-Intelligence-in-Salesloft?language=en_US",
+      "source_type": "Official vendor documentation, indexed content",
+      "accessed": "2026-10-23",
+      "evidence_summary": [
+        "Topics and filters support cross-call analysis.",
+        "Integrated CI requires Salesloft and Clari Copilot subscriptions with CI in the contract, an entitled user and enabled Team Access.",
+        "The July 2026 integrated experience is distinguished from legacy Salesloft Conversations."
+      ],
+      "limitation": "Indexed official text inspected; support-page direct retrieval returned loading/CSS errors. Release-specific features and languages require confirmation; no product account was tested."
     }
   ]
 }
