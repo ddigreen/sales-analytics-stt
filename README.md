@@ -42,7 +42,7 @@ The script uses the standard library and downloads the attributed public archive
 
 | Team member | GitHub | Group | Responsibility |
 |---|---|---|---|
-| Amangeldiev Diasbek Yernarovich | [ddigreen](https://github.com/ddigreen) | SE-2402 | Speech processing, extraction, annotation and evaluation |
+| Amangeldiyev Diasbek Yernarovich | [ddigreen](https://github.com/ddigreen) | SE-2402 | Speech processing, extraction, annotation and evaluation |
 | Taubasar Dameli Almabekkyzy | [daminkavitaminka](https://github.com/daminkavitaminka) | SE-2402 | Frontend, API integration, review workflow and UI tests |
 | Rashiduly Bekzat | [gojosatorukz](https://github.com/gojosatorukz) | SE-2418 | Backend, CSV integration, database, API and access control |
 
