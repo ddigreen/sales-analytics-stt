@@ -1,0 +1,241 @@
+{
+  "date": "2026-10-23",
+  "scientific_article_count": 15,
+  "review_type": "Assistant source audit and corrections; not independent student authorship or teammate PR approval",
+  "result": "All 15 publications are real and relevant; no replacement required. L12/L13 remain preview-limited.",
+  "records": [
+    {
+      "id": "L01",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://proceedings.mlr.press/v202/radford23a.html",
+        "https://proceedings.mlr.press/v202/radford23a/radford23a.pdf"
+      ],
+      "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication.",
+      "corrections": {},
+      "limitation": "No direct sales-call or local business-entity guarantee follows from benchmark transfer."
+    },
+    {
+      "id": "L02",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://www.isca-archive.org/interspeech_2023/bain23_interspeech.html",
+        "https://www.isca-archive.org/interspeech_2023/bain23_interspeech.pdf",
+        "https://ora.ox.ac.uk/objects/uuid%3Afece4192-95b7-4db8-a018-3cf728040194"
+      ],
+      "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication.",
+      "corrections": {},
+      "limitation": "Neither the speedup nor Kazakh/Russian alignment quality is a deployment guarantee."
+    },
+    {
+      "id": "L03",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://www.isca-archive.org/interspeech_2023/bredin23_interspeech.html",
+        "https://www.isca-archive.org/interspeech_2023/bredin23_interspeech.pdf"
+      ],
+      "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication.",
+      "corrections": {},
+      "limitation": "Anonymous speaker clusters do not establish salesperson/customer identity; domain and scoring conventions affect results."
+    },
+    {
+      "id": "L04",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://www.isca-archive.org/interspeech_2022/mussakhojayeva22_interspeech.html",
+        "https://www.isca-archive.org/interspeech_2022/mussakhojayeva22_interspeech.pdf"
+      ],
+      "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication.",
+      "corrections": {},
+      "limitation": "Current 27.0–36.8% wording is correct; do not replace it with strictly above 27%, because radio equals 27.0%."
+    },
+    {
+      "id": "L05",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://aclanthology.org/2022.naacl-industry.6/",
+        "https://aclanthology.org/2022.naacl-industry.6.pdf"
+      ],
+      "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication.",
+      "corrections": {
+        "findings": {
+          "before": "Human-plus-pseudo labels improve tested ROUGE scores. Pseudo labels alone score better on ROUGE but worse on factuality than human labels.",
+          "after": "Human-plus-pseudo-label training improves tested ROUGE scores. In the DialogSum comparison, pseudo-only training scores higher on ROUGE but lower on automatic FactCC than human-only training."
+        },
+        "claim_locator": {
+          "before": "§3 architecture/DialogBART/acceptability; §6.1 and Tables 1–2 public plus 100 proprietary tests; §6.3/Figure 6 ROUGE–factuality disagreement; metadata/PDF pp.45–53.",
+          "after": "§3 architecture/DialogBART/acceptability; §6.1/Table 2 (500 DialogSum, 819 SAMSum, 100 proprietary test samples); §6.3/Figure 6 (DialogSum ROUGE versus automatic FactCC); proceedings pp.45–53."
+        }
+      },
+      "limitation": "The factuality comparison is an automated metric result, not independent human verification of truth or measured sales uplift."
+    },
+    {
+      "id": "L06",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://aclanthology.org/2021.naacl-main.472/",
+        "https://aclanthology.org/2021.naacl-main.472.pdf"
+      ],
+      "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication.",
+      "corrections": {},
+      "limitation": "Meeting-task ROUGE is not validation of sales transfer, monetary facts or purchase outcomes."
+    },
+    {
+      "id": "L07",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://aclanthology.org/2022.naacl-main.415/",
+        "https://aclanthology.org/2022.naacl-main.415.pdf"
+      ],
+      "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication.",
+      "corrections": {
+        "claim_locator": {
+          "before": "§2 taxonomy; §3 objectives; §4.3, Tables 3–6 and discussion following Table 6.",
+          "after": "§2 taxonomy; §3 objectives; §4.3 evaluation metrics; §5 results and §5.1 error analysis; Tables 3–6, especially Table 5 and the discussion following Table 6 on pp.5662–5663."
+        }
+      },
+      "limitation": "The abstract is broader than detailed AMI results; current cautious finding is correct. §4.3 defines metrics; §5/§5.1 contain results and error analysis."
+    },
+    {
+      "id": "L08",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://dl.acm.org/doi/10.1145/3630106.3658996",
+        "https://arxiv.org/abs/2402.08021",
+        "https://arxiv.org/pdf/2402.08021"
+      ],
+      "verification_note": "Author manuscript rechecked; direct publisher access returned HTTP 403. Proceedings identity retained; no replication.",
+      "corrections": {
+        "access": {
+          "before": "Publisher metadata and author-deposited full text; methods, temporal retest, results, and limitations inspected. No replication.",
+          "after": "Author-deposited full text rechecked on 23 October 2026, including methods, temporal retest, results and limitations. ACM/DOI publisher pages returned HTTP 403 during this recheck; publication identity and DOI also appear in the manuscript front matter. No replication."
+        }
+      },
+      "limitation": "Specialized English sample and changing API; no current Kazakhstan sales-call rate or causal speech-pattern claim."
+    },
+    {
+      "id": "L09",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://doi.org/10.1016/j.array.2026.100755",
+        "https://www.utupub.fi/items/4212647f-5552-4dd8-9a0f-6b8744e4a94c",
+        "https://www.utupub.fi/server/api/core/bitstreams/fbdc5c09-9228-4426-806b-9bd6e0b1197d/content"
+      ],
+      "verification_note": "Official repository metadata and indexed primary full-text passages rechecked; direct PDF returned HTTP 403. No replication.",
+      "corrections": {},
+      "limitation": "The target/input overlap raises a legitimate circularity concern. U/4 is bounded by 1, yet Table 1 reports 7.220 and 1.873. Current caution accurately identifies both issues. SHAP attribution cannot independently prove absence of overfitting."
+    },
+    {
+      "id": "L10",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://aclanthology.org/2024.lrec-main.107/",
+        "https://aclanthology.org/2024.lrec-main.107.pdf"
+      ],
+      "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication.",
+      "corrections": {},
+      "limitation": "The current association wording is appropriately narrower than the paper's causal-sounding abstract. Satisfaction evidence does not establish conversion improvement."
+    },
+    {
+      "id": "L11",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://aclanthology.org/2022.emnlp-industry.49/",
+        "https://aclanthology.org/2022.emnlp-industry.49.pdf"
+      ],
+      "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication.",
+      "corrections": {},
+      "limitation": "Entity polarity is support-weighted; opinion extraction has its own precision/recall/F1. Neither metric measures intent, staff performance, or sales improvement."
+    },
+    {
+      "id": "L12",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S016781162500059X",
+        "https://doi.org/10.1016/j.ijresmar.2025.07.001"
+      ],
+      "verification_note": "Publisher abstract and accessible preview rechecked; full methods remain inaccessible. No new performance claim or replication.",
+      "corrections": {
+        "findings": {
+          "before": "Proposes MINITS: Mode, Immediacy, Need, Interest, Time chatting, Specificity; conversational signals help qualify leads.",
+          "after": "Proposes MINITS: Mode of contact, Immediacy, Need, Interest, Time spent chatting and Specificity; conversational signals help qualify leads."
+        }
+      },
+      "limitation": "MINITS and purchase/profit linkage are supported. Written high-involvement B2C context does not establish speech or Russian/Kazakh transfer. No new numerical model-performance claim should be added."
+    },
+    {
+      "id": "L13",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0969698924000705",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0969698924000705"
+      ],
+      "verification_note": "Publisher abstract and accessible preview rechecked; full methods remain inaccessible. No new performance claim or replication.",
+      "corrections": {},
+      "limitation": "Current wording correctly treats these as observational associations. The preview alternates manufacturer/retailer descriptions; 'Brazilian automotive-parts B2B firm' avoids overstating organizational form."
+    },
+    {
+      "id": "L14",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://journals.sagepub.com/doi/10.1177/0261927X231185520",
+        "https://journals.sagepub.com/doi/pdf/10.1177/0261927X231185520"
+      ],
+      "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication.",
+      "corrections": {},
+      "limitation": "Current label distinction is supported. This qualitative appointment-setting analysis supplies no automated classification benchmark or completed-sale causal estimate."
+    },
+    {
+      "id": "L15",
+      "last_verified": "2026-10-23",
+      "publication_exists": true,
+      "relevant": true,
+      "primary_urls": [
+        "https://home.cse.ust.hk/~raywong/paper/mm21-smartSales.pdf",
+        "https://sigmm.org/opentoc/MM2021-TOC",
+        "https://repository.hkust.edu.hk/ir/bitstream/1783.1-140818/1/991013285659403412.pdf",
+        "https://doi.org/10.1145/3474085.3478555"
+      ],
+      "verification_note": "Author full text and official SIGMM listing rechecked; ACM direct page returned HTTP 403. No replication.",
+      "corrections": {
+        "access": {
+          "before": "Open author-hosted conference PDF and ACM SIGMM proceedings listing; inspected all three pages. This differs from Liang et al.'s 2022 SmartSales chatlog preprint.",
+          "after": "Open author-hosted conference PDF and ACM SIGMM proceedings listing; inspected all three pages. This differs from Liang et al.'s 2022 SmartSales chatlog preprint. Rechecked 23 October 2026 using the accessible author ust.hk PDF and official proceedings; the earlier hkust.edu.hk host timed out."
+        },
+        "full_text_url": {
+          "before": "https://home.cse.hkust.edu.hk/~raywong/paper/mm21-smartSales.pdf",
+          "after": "https://home.cse.ust.hk/~raywong/paper/mm21-smartSales.pdf"
+        }
+      },
+      "limitation": "Deployment is an author report. Component metrics do not establish causal sales gains, independent replication, or language portability. This is distinct from Liang et al.'s 2022 SmartSales preprint."
+    }
+  ]
+}
