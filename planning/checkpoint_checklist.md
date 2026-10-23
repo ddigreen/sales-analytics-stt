@@ -1,6 +1,6 @@
 # Status for 24 October 2026
 
-Current status record, updated on 23 October 2026. Use this checklist for submission readiness; the Word reports retain their dated research and technical-audit snapshot. The [documentation index](../docs/README.md) maps all 11 assignment components to the files.
+Current status record, updated on 23 October 2026. Use this checklist for submission readiness; the Word reports incorporate the backend design amendment and current publication status. The [documentation index](../docs/README.md) maps all 11 assignment components to the files.
 
 ## Prepared and technically checked
 
@@ -9,7 +9,7 @@ Current status record, updated on 23 October 2026. Use this checklist for submis
 - A [live synthetic prototype](https://ddigreen.github.io/vocasales-demo/), evaluation plan, responsibilities, milestones, risks and dependencies.
 - Primary-source verification and a reproduced UCI data profile: 41,188 records and 4,640 positive outcomes. This analysis establishes neither local demand nor speech performance.
 - The 23 October prototype audit passed 23 logic checks, including 180 filter combinations, plus desktop/mobile browser checks. See [test scope](../tests/README.md) and [review notes](../docs/review_notes.md).
-- APA 7 citations and references in the 14-page main report and 24-page appendices. Both contain the same 48 references.
+- APA 7 citations and references in the 14-page main report and 26-page appendices. Both contain the same 49 references, including the 15 scientific publications.
 
 Technical checks do not replace genuine student or supervisor review. Model benchmarks and representative-user study results remain future evaluation work.
 
