@@ -8,7 +8,7 @@ Completed research checks: primary-source verification and descriptive analysis 
 
 The [private repository](https://github.com/ddigreen/sales-analytics-stt) contains the prepared package on a draft branch. [Pull request 2](https://github.com/ddigreen/sales-analytics-stt/pull/2) awaits genuine teammate review and is not merged. Dameli has accepted collaborator access; Bekzat has been invited. Supervisor and committee access still need verification. No submission tag is claimed.
 
-The [live YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) contains SASTT-1–SASTT-12. See the [12-row task register](youtrack_tasks.csv) and [W01–W15 mapping](backlog.csv). Each issue records its expected outcome, acceptance criteria, priority and responsible student. The native `Responsible student` field records the actual named student. Native `Assignee` is verified as Diasbek’s `admin` account, displayed as `Diasbek Amangeldiev (ddigreen)`, for SASTT-1, SASTT-6, SASTT-8, SASTT-9 and SASTT-11. The other seven issues remain Unassigned until the real student accounts are mapped. SASTT-1–SASTT-9 are due 24 October 2026; later implementation epic dates are unset. All 12 issues remain Open.
+The [live YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) contains SASTT-1–SASTT-12. See the [12-row task register](youtrack_tasks.csv) and [W01–W15 mapping](backlog.csv). Each issue records its expected outcome, acceptance criteria, priority and responsible student. The native `Responsible student` field records the actual named student. Native `Assignee` is verified for all 12 issues: `admin` for Diasbek’s five, `taubasar.d` for Dameli’s three and `b.rashiduly` for Bekzat’s four. Dameli’s and Bekzat’s Contributor accounts are provisioned and invited; invitation acceptance is still pending for both. SASTT-1–SASTT-9 are due 24 October 2026; later implementation epic dates are unset. All 12 issues remain Open.
 
 ## Evidence still required
 
@@ -16,7 +16,7 @@ The [live YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/proj
 - Confirm recording/data authorization and legitimate call-to-deal identifiers.
 - Have the named students review and own the drafts, make meaningful changes where justified and explain their work. Publication commits alone do not prove progressive contributions by all three members.
 - Obtain the supervisor's substantive feedback and record the resulting decisions and revisions.
-- Finish repository reviewer access and native YouTrack account mapping for Dameli and Bekzat; verify actual issue-to-branch-to-commit/PR links.
+- Finish repository reviewer access and confirm Dameli’s and Bekzat’s YouTrack invitation acceptance; verify actual issue-to-branch-to-commit/PR links.
 - Obtain genuine teammate review before merge, address comments, and tag the exact reviewed submitted commit `pre-defense-1`. Report outstanding gaps explicitly.
 
 Before 24 October, confirm the official submission time, collect available genuine evidence, review and revise the materials, verify links and rehearse one real task-to-change-to-review trace. Do not close an evidence task because a blank form or prepared draft exists. A complete application is not required at this checkpoint.
