@@ -34,8 +34,8 @@ FastAPI backend, PostgreSQL metadata and search, private local or S3 compatible 
 
 ## Files
 
-- [Main report](docs/research_and_design.docx): 14-page main report covering all 11 assignment components and 15 scientific articles.
-- [Research appendices](docs/research_appendices.docx): detailed source analysis, full requirements, data rules, evaluation protocol, backlog, forms and comparison evidence.
+- [Main report](docs/research_and_design.docx): 14 pages covering all 11 assignment components and 15 scientific articles, with APA 7 citations and references.
+- [Research appendices](docs/research_appendices.docx): 24 pages with detailed source analysis, full requirements, data rules, evaluation protocol, backlog, forms and complete comparison matrices. Both Word files use the same 48 APA references: 15 scientific publications, one dataset and 32 official documentation pages.
 - [Requirements and acceptance criteria](docs/requirements.csv): 26 prioritized requirements and verifiable acceptance criteria.
 - [Literature matrix](research/literature_matrix.csv), [article register](research/articles.json) and [BibTeX references](research/references.bib): 15 scientific sources and a structured critical review.
 - [Diagrams](diagrams/): editable diagram sources and SVG exports for context, use cases and components.
