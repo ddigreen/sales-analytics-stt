@@ -16,7 +16,7 @@ The planned MVP covers CSV import, explicit call-to-deal links, asynchronous tra
 - Research and design: a 14-page report, appendices, 15 scientific publications, comparisons, 26 requirements, editable diagrams and an evaluation plan.
 - A reproducible public-data profiling script and 23 prototype logic checks.
 
-Research and prototype changes from PRs [2](https://github.com/ddigreen/sales-analytics-stt/pull/2), [3](https://github.com/ddigreen/sales-analytics-stt/pull/3) and [4](https://github.com/ddigreen/sales-analytics-stt/pull/4) are merged into `main`. The application backend and speech worker are not implemented. Prototype changes last only until reload; its role selector and processing states are demonstrations. See the [checkpoint checklist](planning/checkpoint_checklist.md) for review records and outstanding evidence.
+Research and prototype changes from PRs [2](https://github.com/ddigreen/sales-analytics-stt/pull/2), [3](https://github.com/ddigreen/sales-analytics-stt/pull/3) and [4](https://github.com/ddigreen/sales-analytics-stt/pull/4) are merged into `main`. The [backend design amendment from PR 5](docs/backend_design_review.md) is also merged. The application backend and speech worker are not implemented. Prototype changes last only until reload; its role selector and processing states are demonstrations. See the [checkpoint checklist](planning/checkpoint_checklist.md) for review records and outstanding evidence.
 
 ## Run and check
 
