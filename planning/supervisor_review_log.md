@@ -6,6 +6,8 @@ Supervisor: **Orynbek Alibek Sarsenbekuly** — working transliteration supplied
 
 Status: **review pending**. The meeting date, comments, decisions and confirmation will be entered after the review. Planned review window: before **24 October 2026**, subject to the supervisor's availability. This file does not schedule or send an invitation.
 
+Current repository and task status: [checkpoint checklist](checkpoint_checklist.md).
+
 ## Review agenda and evidence checklist
 
 | Log item | Material to present | Review question | Actual review date | Supervisor comment / requested change | Decision / status |
@@ -17,7 +19,7 @@ Status: **review pending**. The meeting date, comments, decisions and confirmati
 | SUP-05 | Architecture, data sources, language scope, and proposed technology stack | Are data access, Kazakh/Russian scope, and technical dependencies realistic? | | | |
 | SUP-06 | KPI definitions and evaluation plan | Are outcome sources, baselines, metrics, and acceptance criteria appropriate? | | | |
 | SUP-07 | Work breakdown, team responsibilities, and deadline checklist | Are responsibilities and the remaining work sufficiently clear? | | | |
-| SUP-08 | Repository structure access and publication exclusions | The prepared package is on an unmerged draft branch and the live YouTrack project has 12 Open issues. Are the exclusions, task plan and proposed reviewer access appropriate? | | | |
+| SUP-08 | Repository structure access and publication exclusions | The baseline and later prototype changes are merged into main; see the checkpoint checklist for current evidence gaps. Are the exclusions, task plan and reviewer access appropriate? | | | |
 
 The identifiers above are placeholders for planned review topics, not completed evidence records. Enter actual information only after a review occurs.
 
