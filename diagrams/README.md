@@ -4,9 +4,9 @@ These diagrams specify a proposed system. They do not claim that the backend, wo
 
 | Diagram | Editable source | Vector export | Raster export |
 |---|---|---|---|
-| System context | `01_system_context.mmd` | `01_system_context.svg` | `01_system_context.png` |
-| Components and asynchronous processing | `02_component_architecture.mmd` | `02_component_architecture.svg` | `02_component_architecture.png` |
-| UML use cases — actors, associations, ellipses, system boundary | `03_use_cases.puml` | `03_use_cases.svg` | `03_use_cases.png` |
+| System context | [01_system_context.mmd](01_system_context.mmd) | [01_system_context.svg](01_system_context.svg) | [01_system_context.png](01_system_context.png) |
+| Components and asynchronous processing | [02_component_architecture.mmd](02_component_architecture.mmd) | [02_component_architecture.svg](02_component_architecture.svg) | [02_component_architecture.png](02_component_architecture.png) |
+| UML use cases — actors, associations, ellipses, system boundary | [03_use_cases.puml](03_use_cases.puml) | [03_use_cases.svg](03_use_cases.svg) | [03_use_cases.png](03_use_cases.png) |
 
 SVG width is 1,000 units; labels are at least 22 units. At a printed width of 6.7 inches, these labels are at least 10.6 points. PNGs are exported at 2× vector dimensions. Avoid cropping off the explanatory scope text when placing a diagram in a document.
 
@@ -23,7 +23,7 @@ All roles log in. API authorization governs every query, file access, and direct
 
 ## Component-to-requirement mapping
 
-Requirements refer to `docs/requirements.csv`. Coverage below is planned coverage, not passed validation.
+Requirements refer to [docs/requirements.csv](../docs/requirements.csv). Coverage below is planned coverage, not passed validation.
 
 | Component or boundary | Functional requirements | Nonfunctional requirements and design obligation |
 |---|---|---|
@@ -55,4 +55,4 @@ The SVG exports contain all shapes and text and require no external images, scri
 
 ## Call review product sketch
 
-04_call_review_wireframe.svg is an editable black and white screen sketch; 04_call_review_wireframe.png is its readable export. It illustrates the proposed next prototype, with a written mixed-language example and an intentionally incorrect draft observation for review. It is a product sketch, separate from the three required architecture diagrams. See docs/app_and_prototype_plan.docx.
+[04_call_review_wireframe.svg](04_call_review_wireframe.svg) is an editable black and white screen sketch; [04_call_review_wireframe.png](04_call_review_wireframe.png) is its readable export. It illustrates the proposed next prototype, with a written mixed-language example and an intentionally incorrect draft observation for review. It is a product sketch, separate from the three required architecture diagrams.
