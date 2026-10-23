@@ -8,7 +8,7 @@ The fixture deliberately has 8 calls and 7 CRM deals: C-101 and C-108 share D-10
 
 ## Navigation
 
-Use Menu in the top bar to collapse or restore the left navigation on desktop. On narrow screens it starts closed and opens as a side drawer. Close it with the arrow, the shaded background, Escape or a navigation choice. Keyboard focus stays within the open mobile drawer; hidden controls are not reachable with Tab. The illustrated role selector remains inside the drawer.
+Use the arrow in the sidebar header to close the left navigation and Menu in the top bar to reopen it. Only the control for the current state is shown; Escape also closes the navigation. On narrow screens it starts closed and opens as a side drawer, which also closes when you select the shaded background or a navigation item. Keyboard focus stays within the open mobile drawer; hidden controls are not reachable with Tab. The illustrated role selector remains inside the drawer.
 
 ## Scenarios checked
 
@@ -30,4 +30,4 @@ Automated interaction checks were run in a temporary headless browser, with desk
 
 On 23 October 2026, 23 Node-based logic checks passed, including all 180 dashboard filter combinations, UTC-to-Almaty date boundaries, distinct deals, a CRM deal with no calls, missing evidence, per-call review isolation, Viewer handler guards, failed-job retry, fixture validation and reapplication. Run `node tests/prototype_logic_checks.cjs` from the repository root; see [verification materials](../tests/README.md) for the scope.
 
-A fresh assistant browser regression on the same revision checked Dashboard, Calls, Call review and Import at 1280- and 390-pixel viewport widths. The 390-pixel page had no horizontal overflow and the role selector remained visible. Checks passed for timestamp highlighting, blank review validation, keyboard review submission, draft next actions, disabled Viewer edits, blocked unsupported objections, call-specific review trails, failed-job retry, mapping changes, stale validation and reset. No console warnings or errors were observed. These were synthetic prototype checks; no representative-user study, backend security test or speech evaluation was performed.
+A fresh browser regression on the same revision checked Dashboard, Calls, Call review and Import at 1280- and 390-pixel viewport widths. The 390-pixel page had no horizontal overflow and the role selector remained visible. Checks passed for timestamp highlighting, blank review validation, keyboard review submission, draft next actions, disabled Viewer edits, blocked unsupported objections, call-specific review trails, failed-job retry, mapping changes, stale validation and reset. No console warnings or errors were observed. These were synthetic prototype checks; no representative-user study, backend security test or speech evaluation was performed.
