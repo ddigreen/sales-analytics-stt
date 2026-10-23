@@ -15,9 +15,11 @@ Technical checks do not replace genuine student or supervisor review. Model benc
 
 ## Repository and review records
 
-The [private repository](https://github.com/ddigreen/sales-analytics-stt) contains the research baseline and prototype on `main`. PRs [2](https://github.com/ddigreen/sales-analytics-stt/pull/2), [3](https://github.com/ddigreen/sales-analytics-stt/pull/3) and [4](https://github.com/ddigreen/sales-analytics-stt/pull/4) were merged on 23 October 2026. GitHub records approval and merge of PR 2 by `daminkavitaminka`; PRs 3 and 4 include Codex-assisted technical approvals through that account. These records must not be presented as proof that the students or supervisor independently reviewed all materials.
+The [private repository](https://github.com/ddigreen/sales-analytics-stt) contains the research baseline and prototype on `main`. PRs [2](https://github.com/ddigreen/sales-analytics-stt/pull/2), [3](https://github.com/ddigreen/sales-analytics-stt/pull/3) and [4](https://github.com/ddigreen/sales-analytics-stt/pull/4) were merged on 23 October 2026. GitHub records approvals for these changes, including technical review records. Substantive independent student and supervisor review remain separate requirements and are still pending.
 
-Dameli has accepted GitHub collaborator access. Bekzat has been invited; acceptance remains unverified. Supervisor and committee access still need verification. The last repository inspection showed `main` without protection; the [review-before-merge process](../CONTRIBUTING.md) is not verified as technically enforced. No fixed submission tag has been confirmed.
+[PR 5](https://github.com/ddigreen/sales-analytics-stt/pull/5) was merged on 23 October after Diasbek's recorded review. It adds Bekzat's eight backend design findings and decisions for all 26 requirements; see the [design amendment](../docs/backend_design_review.md). This is proposed design work, not an implemented backend. SASTT-4 remains Open for its remaining criteria, including Dameli's substantive review.
+
+Dameli and Bekzat have GitHub collaborator access; Bekzat published the task branch and PR 5. Supervisor and committee access still need verification. The last repository inspection showed `main` without protection; the [review-before-merge process](../CONTRIBUTING.md) is not verified as technically enforced. No fixed submission tag has been confirmed.
 
 ## YouTrack snapshot
 
@@ -31,8 +33,8 @@ At the last check on 23 October, all 12 issues were Open. SASTT-1–SASTT-9 are 
 - [ ] Confirm recording/data authorization and legitimate call-to-deal identifiers before collecting or processing real recordings.
 - [ ] Have the named students substantively review and explain the drafts, make justified changes and retain their actual contribution/review evidence. Publication commits alone do not demonstrate progressive work by all three members.
 - [ ] Obtain the supervisor's substantive comments and record decisions, resulting revisions and confirmation in the [review log](supervisor_review_log.md).
-- [ ] Verify Bekzat's GitHub acceptance, supervisor/committee access and both outstanding YouTrack invitation acceptances.
-- [ ] Verify task-to-branch-to-commit/PR links and genuine teammate feedback on the current changes. Preserve transparent descriptions of assistant help.
+- [ ] Verify supervisor/committee access and both outstanding YouTrack invitation acceptances.
+- [ ] Verify task-to-branch-to-commit/PR links and substantive teammate feedback on the current changes.
 - [ ] After review and revision, tag the exact submitted commit `pre-defense-1`; provide its link, completed work, limitations and outstanding tasks. Keep that tag fixed after submission.
 - [ ] Confirm the submission time and rehearse a real task-to-change-to-review trace, the prototype and the existing test command.
 
