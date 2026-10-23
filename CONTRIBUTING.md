@@ -40,7 +40,7 @@ Push your branch and open a PR into `main`. Complete the [PR template](.github/p
 
 Request another teammate as reviewer. The author explains the change; the reviewer reads it, runs or inspects relevant checks and records a supported decision. Address comments and request another review when the correction changes the reviewed behavior. Assigning a reviewer alone is not approval.
 
-If an assistant helps prepare code or a technical review, describe that assistance accurately. An account's approval is not proof of an independent student review. Students must understand, substantively review and explain the work attributed to them.
+Students must understand, substantively review and explain the work attributed to them. A recorded approval alone does not establish that review.
 
 ## 5. Merge the reviewed result
 
