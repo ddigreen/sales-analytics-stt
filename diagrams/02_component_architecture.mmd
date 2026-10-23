@@ -2,7 +2,8 @@ flowchart LR
     subgraph SYSTEM["Sales Analytics System — proposed components"]
         UI["Web UI<br/>Import / review / dashboard"]
         API["FastAPI API<br/>Authentication and scoped authorization<br/>CSV ingest / link / query / search<br/>Review / analytics / export"]
-        DB[("PostgreSQL<br/>Metadata / segments / extractions<br/>Revisions / job states / audit")]
+        DB[("PostgreSQL<br/>Team-scoped data / versioned evidence<br/>Jobs / outbox / leases / audit")]
+        DISPATCH["Job dispatcher / recovery<br/>Publish due IDs / recover expired leases"]
         STORE[("Private object store<br/>Authorized audio<br/>Restricted object access")]
         QUEUE["Redis broker<br/>Celery task queue<br/>ASR and deletion jobs"]
         subgraph WORKER["Python / Celery worker — asynchronous"]
@@ -13,20 +14,25 @@ flowchart LR
         EVAL["Offline evaluation<br/>Versioned test data and metrics"]
 
         UI -->|HTTPS / role scope| API
-        API -->|Authorized metadata and queries| DB
+        API -->|Scoped queries / atomic job and outbox commit| DB
         API -->|Store authorized audio| STORE
-        API -->|Enqueue job IDs| QUEUE
-        QUEUE -->|Consume jobs / bounded retries| WORKER
+        DB -->|Pending outbox / due jobs| DISPATCH
+        DISPATCH -->|Publish job IDs| QUEUE
+        DISPATCH -->|Delivery / lease recovery state| DB
+        QUEUE -->|Duplicate-safe claims / bounded retries| WORKER
         ASR --> EXTRACT
         STORE -->|Read authorized audio| WORKER
         DELETE -->|Delete authorized objects| STORE
-        WORKER -->|Versioned results / status / audit| DB
+        WORKER -->|Atomic results / fenced lease / current-version check| DB
         DELETE -->|Delete derivatives / retain content-free audit| DB
         EVAL -.->|Permitted versioned evaluation data| DB
     end
 
     %% Audio transfers use private object access; queue messages contain identifiers,
-    %% not full recordings. Job completion is persisted in PostgreSQL.
+    %% not full recordings. PostgreSQL owns job state; Redis is notification transport.
+    %% API commit-before-publish is recovered through the persistent outbox/scan.
+    %% Worker commits check lease token, expected current version and deletion tombstone.
+    %% One initial attempt plus at most two automatic retries, including expired leases.
     %% Retention requests pass through API authorization and asynchronous deletion jobs.
     %% A backup expiry policy is required; deleting active data does not erase backups instantly.
     %% CSV is the mandatory initial CRM interface; FR16 live connector is deferred.
