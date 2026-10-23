@@ -30,7 +30,9 @@ The Word report was rendered and its page images checked for table overflow, spl
 
 ## Items for the team
 
-Confirm the working English spellings and proposed responsibility allocation. Read the papers assigned to each member and retain notes on how they affect the design. Collect the 3–5 representative discussions or actual client agreement, obtain recording permissions, and record the supervisor's comments and resulting changes. The prepared package is now published on a draft branch in the private GitHub repository; [pull request 2](https://github.com/ddigreen/sales-analytics-stt/pull/2) is unmerged. The [live YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) contains 12 Open issues with priorities, responsible-student fields and checkpoint due dates. Native Assignee mappings are verified for all 12 issues: Diasbek’s five use `admin`, Dameli’s three use `taubasar.d`, and Bekzat’s four use `b.rashiduly`. The two Contributor accounts are provisioned and invited, but Dameli’s and Bekzat’s invitation acceptance remains pending. Substantive student review, complete reviewer access and genuine development/review evidence remain pending. The current report remains a research and design draft until those evidence requirements are met.
+Confirm the working English spellings and proposed responsibility allocation. Each member should read their assigned papers and retain notes explaining how the evidence affects the design. Collect the required representative discussions or actual-client agreement, obtain recording permissions, and record the supervisor's comments and resulting changes.
+
+The prepared baseline and later prototype changes are merged into `main` through PRs 2, 3 and 4. GitHub records are described in the [current checkpoint checklist](../planning/checkpoint_checklist.md), including the limits of Codex-assisted approvals. Substantive student review, complete reviewer access and genuine development/review evidence remain outstanding; merging prepared materials does not complete those evidence requirements.
 
 ## Short report revision
 
@@ -38,7 +40,7 @@ The main report was reduced from 25 to 14 pages. After the APA 7 revision it rem
 
 ## Live task traceability
 
-The [12-row live register](../planning/youtrack_tasks.csv) records real SASTT issue IDs and URLs, native Major/Critical priorities, responsible students, Open states and due dates. The [backlog mapping](../planning/backlog.csv) preserves all W01–W15 labels and maps them to those issues. GitHub handles identify the named students. All 12 native Assignee mappings are verified against actual accounts: `admin`, `taubasar.d` and `b.rashiduly`. Dameli’s and Bekzat’s Contributor invitations are sent and awaiting acceptance. The first nine issues are due 24 October 2026, while later implementation epics have no agreed date. Existing research and source-control drafts remain subject to genuine student and supervisor review.
+The [12-row register](../planning/youtrack_tasks.csv) records real SASTT issue IDs and URLs, native priorities, responsible students, states and due dates. The [backlog mapping](../planning/backlog.csv) preserves W01–W15 and their issue links. Native Assignee mappings are verified for `admin`, `taubasar.d` and `b.rashiduly`. Use [checkpoint status](../planning/checkpoint_checklist.md) for the last verified issue states, invitation status and remaining evidence; use live YouTrack for later changes.
 
 ## Technical audit on 23 October
 
