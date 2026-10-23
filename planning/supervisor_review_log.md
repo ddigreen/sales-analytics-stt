@@ -17,7 +17,7 @@ Status: **review pending**. The meeting date, comments, decisions and confirmati
 | SUP-05 | Architecture, data sources, language scope, and proposed technology stack | Are data access, Kazakh/Russian scope, and technical dependencies realistic? | | | |
 | SUP-06 | KPI definitions and evaluation plan | Are outcome sources, baselines, metrics, and acceptance criteria appropriate? | | | |
 | SUP-07 | Work breakdown, team responsibilities, and deadline checklist | Are responsibilities and the remaining work sufficiently clear? | | | |
-| SUP-08 | Repository structure access and publication exclusions | The private repository has its initial README only. Are the package publication plan, exclusions and proposed reviewer access appropriate? | | | |
+| SUP-08 | Repository structure access and publication exclusions | The prepared package is on an unmerged draft branch and the live YouTrack project has 12 Open issues. Are the exclusions, task plan and proposed reviewer access appropriate? | | | |
 
 The identifiers above are placeholders for planned review topics, not completed evidence records. Enter actual information only after a review occurs.
 
