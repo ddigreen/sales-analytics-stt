@@ -1,6 +1,6 @@
 # Git and YouTrack checkpoint workflow
 
-The research baseline and later prototype/publication changes are on `main`: PRs [2](https://github.com/ddigreen/sales-analytics-stt/pull/2), [3](https://github.com/ddigreen/sales-analytics-stt/pull/3) and [4](https://github.com/ddigreen/sales-analytics-stt/pull/4) were merged on 23 October 2026. The [checkpoint checklist](checkpoint_checklist.md) records current access, review and evidence gaps. The Word reports retain their dated project snapshot.
+The research baseline and later prototype/publication changes are on `main`: PRs [2](https://github.com/ddigreen/sales-analytics-stt/pull/2), [3](https://github.com/ddigreen/sales-analytics-stt/pull/3) and [4](https://github.com/ddigreen/sales-analytics-stt/pull/4) were merged on 23 October 2026. The [checkpoint checklist](checkpoint_checklist.md) records current access, review and evidence gaps. The Word reports incorporate the merged backend design amendment; their final task acceptance and the submission tag remain pending.
 
 Use [CONTRIBUTING.md](../CONTRIBUTING.md) for the full YouTrack → task branch → validation → PR → teammate review → merge workflow. Preserve actual author identities, checks and feedback. Keep secrets, private recordings, contact details and permission documents out of Git.
 

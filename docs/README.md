@@ -1,6 +1,6 @@
 # Project documentation
 
-This index follows the 11 components of the 24 October assignment. The [main report](research_and_design.docx) contains sections 1–11 in the same order and is 14 pages; the [24-page appendices](research_appendices.docx) hold the detailed matrices, requirements and evaluation instruments. Both use APA 7 references. The Word files retain their dated research snapshot. The later [backend design amendment from PR 5](backend_design_review.md) records eight findings and updated decisions; use the linked contract, requirements CSV and component diagram for those details.
+This index follows the 11 components of the 24 October assignment. The [main report](research_and_design.docx) contains sections 1–11 in the same order and is 14 pages; the [26-page appendices](research_appendices.docx) hold the detailed matrices, requirements and evaluation instruments. Both use APA 7 references. Both reports incorporate the [backend design amendment from PR 5](backend_design_review.md): eight findings, ten clarified acceptance criteria, durable job recovery, versioned evidence and the revised comparison. Their identical APA 7 lists contain 49 references, including the 15 scientific publications. Task acceptance and supervisor feedback remain separate pending activities.
 
 The [checkpoint checklist](../planning/checkpoint_checklist.md) is the current status record. A document, planned procedure or blank form is not evidence that its activity has taken place.
 
