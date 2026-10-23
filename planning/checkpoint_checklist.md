@@ -4,7 +4,7 @@ Prepared deliverables: proposal and scope; critical review and structured matrix
 
 Completed research checks: primary-source verification and descriptive analysis of the public UCI bank-additional-full.csv. These checks do not establish local user demand or speech performance.
 
-The 23 October technical audit rechecked all 15 sources, corrected the evaluation protocol and fixed the synthetic prototype. Its 23 logic checks, 180 filter combinations and desktop/mobile browser checks passed; see [review notes](../docs/review_notes.md). The main report is 14 pages with 17 pages of appendices. These checks do not replace genuine teammate or supervisor review. Model benchmarking and a representative-user usability study are planned evaluation work, not completed checkpoint results.
+The 23 October technical audit rechecked all 15 sources, corrected the evaluation protocol and fixed the synthetic prototype. Its 23 logic checks, 180 filter combinations and desktop/mobile browser checks passed; see [review notes](../docs/review_notes.md). Following the APA 7 citation revision, the main report is 14 pages with 24 pages of appendices; both contain the same 48 complete references. These checks do not replace genuine teammate or supervisor review. Model benchmarking and a representative-user usability study are planned evaluation work, not completed checkpoint results.
 
 ## Repository and task setup
 
