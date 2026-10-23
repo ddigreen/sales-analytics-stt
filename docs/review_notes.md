@@ -34,7 +34,7 @@ Confirm the working English spellings and proposed responsibility allocation. Re
 
 ## Short report revision
 
-The main report was reduced from 25 to 14 pages, with all 11 components, 15 article analyses and references, 26 summarized requirements and three diagrams retained. Supporting detail is now in the 17-page research_appendices.docx. Both documents were checked for content consistency and rendered for visual review.
+The main report was reduced from 25 to 14 pages. After the APA 7 revision it remains 14 pages, retaining all 11 components, the 15-study overview and three diagrams. Detailed comparison matrices and all 26 complete acceptance criteria are in the 24-page research_appendices.docx. Both documents were checked for content consistency and rendered for visual review.
 
 ## Live task traceability
 
@@ -49,3 +49,7 @@ The [12-row live register](../planning/youtrack_tasks.csv) records real SASTT is
 - The revised synthetic prototype passed 23 static/Node logic checks, including all 180 dashboard filter combinations. Corrections cover CRM deals without calls, evidence-backed objection review, per-call trails, invalid import state, reset behavior and the narrow-screen role control. These passes do not establish real uploads, authentication, speech recognition or usability with representative users.
 
 Fresh browser verification on 23 October passed at 1280 × 900 and 390 × 844: dashboard, call list, detail and import layouts were inspected, with no page-level horizontal overflow at 390 pixels and the role selector available. Evidence highlighting, empty-text rejection, keyboard saving, Viewer restrictions, missing-evidence blocking, per-call history, simulated retry, invalidated mapping validation and sample reset behaved as specified. Reviewing an objection leaves the next action explicitly draft. No browser warning or error was captured. This does not verify production uploads, authentication, inference or representative-user usability.
+
+## APA 7 revision on 23 October
+
+Both Word documents now use author–date citations and identical alphabetized reference lists: 15 scientific publications, one public dataset and 32 official documentation sources. Each of the 48 entries is cited in each document. Full author lists, source-specific journal/proceedings details, DOI/URL links, same-author/year suffixes, italics, double spacing and 0.5-inch hanging indents were checked. L01–L15 remain analysis IDs only; T01–T22 remain test IDs. The main report stays at 14 pages by shortening repeated summaries and placing complete comparison matrices in Appendix G. The appendices are 24 pages; all complete requirements and detailed source analyses remain available. All rendered pages were inspected. These are assistant formatting and technical checks, not student or supervisor approval.
