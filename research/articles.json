@@ -25,7 +25,9 @@
     "scientific": true,
     "peer_reviewed": true,
     "original_id": "S01",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "last_verified": "2026-10-23",
+    "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication."
   },
   {
     "id": "L02",
@@ -50,7 +52,9 @@
     "scientific": true,
     "peer_reviewed": true,
     "original_id": "S02",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "last_verified": "2026-10-23",
+    "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication."
   },
   {
     "id": "L03",
@@ -72,7 +76,9 @@
     "scientific": true,
     "peer_reviewed": true,
     "original_id": "S03",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "last_verified": "2026-10-23",
+    "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication."
   },
   {
     "id": "L04",
@@ -96,7 +102,9 @@
     "scientific": true,
     "peer_reviewed": true,
     "original_id": "S04",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "last_verified": "2026-10-23",
+    "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication."
   },
   {
     "id": "L05",
@@ -117,14 +125,16 @@
     "full_text_url": "https://aclanthology.org/2022.naacl-industry.6.pdf",
     "access": "Publisher landing page and published full text inspected on 22 October 2026, including architecture, experiments, metric disagreement, and conclusions. No replication.",
     "method": "Segment sales-call transcripts; summarize with speaker/turn-aware DialogBART; filter grammatical acceptability; permit human editing. GPT-3 supplies offline pseudo-labels.",
-    "findings": "Human-plus-pseudo labels improve tested ROUGE scores. Pseudo labels alone score better on ROUGE but worse on factuality than human labels.",
+    "findings": "Human-plus-pseudo-label training improves tested ROUGE scores. In the DialogSum comparison, pseudo-only training scores higher on ROUGE but lower on automatic FactCC than human-only training.",
     "limitations": "Only 100 proprietary test examples; no demonstrated Russian/Kazakh transfer or causal productivity lift. Grammatical acceptability filtering does not establish faithfulness to audio.",
     "project_use": "Justify editable, speaker-aware call highlights and human review; evaluate factual grounding separately from fluency and lexical overlap.",
-    "claim_locator": "§3 architecture/DialogBART/acceptability; §6.1 and Tables 1–2 public plus 100 proprietary tests; §6.3/Figure 6 ROUGE–factuality disagreement; metadata/PDF pp.45–53.",
+    "claim_locator": "§3 architecture/DialogBART/acceptability; §6.1/Table 2 (500 DialogSum, 819 SAMSum, 100 proprietary test samples); §6.3/Figure 6 (DialogSum ROUGE versus automatic FactCC); proceedings pp.45–53.",
     "scientific": true,
     "peer_reviewed": true,
     "original_id": "S05",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "last_verified": "2026-10-23",
+    "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication."
   },
   {
     "id": "L06",
@@ -156,7 +166,9 @@
     "scientific": true,
     "peer_reviewed": true,
     "original_id": "S06",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "last_verified": "2026-10-23",
+    "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication."
   },
   {
     "id": "L07",
@@ -183,11 +195,13 @@
     "findings": "Human faithfulness scores improve; individual AMI error-type reductions are less consistent.",
     "limitations": "Human evaluation includes only 20 AMI dialogues; English datasets and model-specific results.",
     "project_use": "Audit negation, entities, references, tense, and modality; preserve tentative versus confirmed purchases.",
-    "claim_locator": "§2 taxonomy; §3 objectives; §4.3, Tables 3–6 and discussion following Table 6.",
+    "claim_locator": "§2 taxonomy; §3 objectives; §4.3 evaluation metrics; §5 results and §5.1 error analysis; Tables 3–6, especially Table 5 and the discussion following Table 6 on pp.5662–5663.",
     "scientific": true,
     "peer_reviewed": true,
     "original_id": "S07",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "last_verified": "2026-10-23",
+    "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication."
   },
   {
     "id": "L08",
@@ -204,7 +218,7 @@
     "doi": "10.1145/3630106.3658996",
     "url": "https://doi.org/10.1145/3630106.3658996",
     "full_text_url": "https://arxiv.org/pdf/2402.08021",
-    "access": "Publisher metadata and author-deposited full text; methods, temporal retest, results, and limitations inspected. No replication.",
+    "access": "Author-deposited full text rechecked on 23 October 2026, including methods, temporal retest, results and limitations. ACM/DOI publisher pages returned HTTP 403 during this recheck; publication identity and DOI also appear in the manuscript front matter. No replication.",
     "method": "Repeated 2023 API transcription of AphasiaBank audio; manual hallucination verification and thematic coding.",
     "findings": "Historical experiments found invented phrases; silence patterns and speaker characteristics are associated with risk.",
     "limitations": "Specialized English sample and changing 2023 API; reported rates are not current sales-call estimates. Detection can miss hallucinations repeated identically across runs.",
@@ -213,7 +227,9 @@
     "scientific": true,
     "peer_reviewed": true,
     "original_id": "S08",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "last_verified": "2026-10-23",
+    "verification_note": "Author manuscript rechecked; direct publisher access returned HTTP 403. Proceedings identity retained; no replication."
   },
   {
     "id": "L09",
@@ -239,7 +255,10 @@
     "peer_reviewed": true,
     "publication_type": "Journal article",
     "original_id": "B01",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "repository_landing_url": "https://www.utupub.fi/items/4212647f-5552-4dd8-9a0f-6b8744e4a94c",
+    "last_verified": "2026-10-23",
+    "verification_note": "Official repository metadata and indexed primary full-text passages rechecked; direct PDF returned HTTP 403. No replication."
   },
   {
     "id": "L10",
@@ -264,7 +283,9 @@
     "peer_reviewed": true,
     "publication_type": "Conference paper",
     "original_id": "B02",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "last_verified": "2026-10-23",
+    "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication."
   },
   {
     "id": "L11",
@@ -292,7 +313,9 @@
     "peer_reviewed": true,
     "publication_type": "Conference industry paper",
     "original_id": "B03",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "last_verified": "2026-10-23",
+    "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication."
   },
   {
     "id": "L12",
@@ -311,7 +334,7 @@
     "publisher_url": "https://www.sciencedirect.com/science/article/pii/S016781162500059X",
     "access": "Publisher abstract, highlights, and study/data section snippets inspected; full text requires subscription and was not read. Cite 2026 issue year; DOI reflects 2025 online publication.",
     "method": "Sales-manager qualitative research, automotive chat topic/predictive analysis, and replication in furniture; links conversation text with downstream purchase and profit.",
-    "findings": "Proposes MINITS: Mode, Immediacy, Need, Interest, Time chatting, Specificity; conversational signals help qualify leads.",
+    "findings": "Proposes MINITS: Mode of contact, Immediacy, Need, Interest, Time spent chatting and Specificity; conversational signals help qualify leads.",
     "limitations": "Written high-involvement B2C chats; transfer to noisy speech or other sectors is untested here. Full-text evaluation details were inaccessible.",
     "project_use": "Specify interpretable lead features and connect transcript-derived signals to CRM purchase/profit outcomes rather than using sentiment as the sole target.",
     "claim_locator": "Publisher abstract/highlights; Overview of studies; Data/sample snippets for automotive and furniture. Publisher issue metadata: June 2026, volume 43(2), pages 383–403.",
@@ -319,7 +342,9 @@
     "peer_reviewed": true,
     "publication_type": "Journal article",
     "original_id": "B04",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "last_verified": "2026-10-23",
+    "verification_note": "Publisher abstract and accessible preview rechecked; full methods remain inaccessible. No new performance claim or replication."
   },
   {
     "id": "L13",
@@ -345,7 +370,9 @@
     "peer_reviewed": true,
     "publication_type": "Journal article",
     "original_id": "B05",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "last_verified": "2026-10-23",
+    "verification_note": "Publisher abstract and accessible preview rechecked; full methods remain inaccessible. No new performance claim or replication."
   },
   {
     "id": "L14",
@@ -369,7 +396,9 @@
     "peer_reviewed": true,
     "publication_type": "Journal article",
     "original_id": "B06",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "last_verified": "2026-10-23",
+    "verification_note": "Primary publication record and relevant full-text sections rechecked; no experimental replication."
   },
   {
     "id": "L15",
@@ -388,8 +417,8 @@
     "venue": "Proceedings of the 29th ACM International Conference on Multimedia (MM ’21), 2774–2776",
     "doi": "10.1145/3474085.3478555",
     "url": "https://doi.org/10.1145/3474085.3478555",
-    "full_text_url": "https://home.cse.hkust.edu.hk/~raywong/paper/mm21-smartSales.pdf",
-    "access": "Open author-hosted conference PDF and ACM SIGMM proceedings listing; inspected all three pages. This differs from Liang et al.'s 2022 SmartSales chatlog preprint.",
+    "full_text_url": "https://home.cse.ust.hk/~raywong/paper/mm21-smartSales.pdf",
+    "access": "Open author-hosted conference PDF and ACM SIGMM proceedings listing; inspected all three pages. This differs from Liang et al.'s 2022 SmartSales chatlog preprint. Rechecked 23 October 2026 using the accessible author ust.hk PDF and official proceedings; the earlier hkust.edu.hk host timed out.",
     "method": "Chinese FinTech telemarketing demo integrating ASR, dialogue parsing, intent mining, knowledge-base QA, response recommendation, sentiment, and call evaluation.",
     "findings": "Reports deployment at WeBank; demonstrates component evaluation and an operational workflow joining speech recognition to managerial call reports.",
     "limitations": "Three-page demonstration with proprietary domain data; deployment statement and component metrics do not establish causal sales improvement or multilingual portability.",
@@ -399,6 +428,11 @@
     "peer_reviewed": true,
     "publication_type": "Conference demonstration paper",
     "original_id": "B08",
-    "verified_during": "2026-10-21 to 2026-10-22"
+    "verified_during": "2026-10-21 to 2026-10-22",
+    "alternate_full_text_urls": [
+      "https://home.cse.hkust.edu.hk/~raywong/paper/mm21-smartSales.pdf"
+    ],
+    "last_verified": "2026-10-23",
+    "verification_note": "Author full text and official SIGMM listing rechecked; ACM direct page returned HTTP 403. No replication."
   }
 ]
