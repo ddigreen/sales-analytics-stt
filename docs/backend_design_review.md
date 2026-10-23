@@ -98,7 +98,7 @@ The [context Mermaid source](../diagrams/01_system_context.mmd) and its SVG were
 
 The [component source](../diagrams/02_component_architecture.mmd), [SVG](../diagrams/02_component_architecture.svg) and [PNG](../diagrams/02_component_architecture.png) now include the dispatcher/recovery boundary, job/outbox/lease metadata and fenced result completion. All original API, storage, queue, ASR, extraction, deletion and offline-evaluation responsibilities remain. The PNG was rerendered from the SVG using the bundled Node runtime and sharp and visually inspected. The Mermaid source and manual SVG express matching nodes/relationships; they need not have identical layout. Inference stays asynchronous, audio stays private, and deletion remains reconciled. These are proposed components, not deployed services.
 
-The two Word reports retain the baseline design content. This Markdown review, the updated contracts/CSV and component exports are the explicit SASTT-4 amendment; do not claim the embedded Word diagram or acceptance tables already include it. Integrate the amendment into the report after teammate decisions, with normal document visual verification.
+The two Word reports now incorporate this amendment. The 14-page main report contains a monochrome component overview and updated requirements summary; the 26-page appendices carry all ten clarified criteria, the revised contracts, planned backend scenarios and Salesloft evidence. Both retain all 15 scientific publications and use identical 49-entry APA 7 reference lists. Dameli's substantive SASTT-4 review and the new Word revision's teammate review remain pending.
 
 ## Verification actually completed
 
