@@ -1,4 +1,6 @@
-# Local UX mockup
+# VocaSales UX prototype
+
+**[Open the live prototype](https://vocasales-prototype.dsbkamngldv.chatgpt.site)** — no download or installation. The local HTML remains available for offline review.
 
 Open [index.html](index.html) in a modern browser. No installation, server, credentials, network, real audio or model inference is needed. The temporary product label is VocaSales. Data and multilingual transcript snippets are synthetic. English labels on Russian/Kazakh examples are manually written annotations, not model output. All changes disappear on reload.
 
