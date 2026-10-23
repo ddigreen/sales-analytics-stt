@@ -1,6 +1,6 @@
 # Review notes
 
-Research and design review completed on 22 October 2026. These notes record checks on the current draft and corrections made before team review. They do not record supervisor approval or a customer study.
+Assistant technical verification on 22–23 October 2026 covered source records, the evaluation design, descriptive public-data analysis and the synthetic prototype. These checks and corrections are not evidence of individual student authorship, teammate PR approval, supervisor feedback or a representative-user study.
 
 ## Source and interpretation checks
 
@@ -24,7 +24,7 @@ The product comparison uses four systems and eight common criteria. Gong and Hub
 
 The public UCI dataset profile was reproduced from the official archive: 41,188 records, 4,640 positive outcomes and matching input hashes. This is descriptive analysis, with no trained classifier or speech benchmark.
 
-The local mockup was checked for distinct-deal totals, date filters, zero denominators, mapping validation, evidence navigation, correction history, viewer editing restrictions, failure/retry illustration and reset. Desktop and mobile layouts were inspected. These are software checks on synthetic fixtures, not a usability study with representative users.
+The initial mockup was checked for distinct-deal totals, date filters, zero denominators, mapping validation, evidence navigation, correction history, viewer editing restrictions, failure/retry illustration and reset; desktop and mobile layouts were inspected. The revised 23 October code passed both the logic checks and fresh browser verification below. These are software checks on synthetic fixtures, not a representative-user study.
 
 The Word report was rendered and its page images checked for table overflow, split references, title styling, blank pages and diagram readability. Editable diagram sources and exports were checked for consistency with roles and requirements.
 
@@ -34,8 +34,18 @@ Confirm the working English spellings and proposed responsibility allocation. Re
 
 ## Short report revision
 
-The main report was reduced from 25 to 14 pages, with all 11 components, 15 article analyses and references, 26 summarized requirements and three diagrams retained. Supporting detail is now in research_appendices.docx. Both documents were checked for content consistency and rendered for visual review.
+The main report was reduced from 25 to 14 pages, with all 11 components, 15 article analyses and references, 26 summarized requirements and three diagrams retained. Supporting detail is now in the 17-page research_appendices.docx. Both documents were checked for content consistency and rendered for visual review.
 
 ## Live task traceability
 
 The [12-row live register](../planning/youtrack_tasks.csv) records real SASTT issue IDs and URLs, native Major/Critical priorities, responsible students, Open states and due dates. The [backlog mapping](../planning/backlog.csv) preserves all W01–W15 labels and maps them to those issues. GitHub handles identify the named students. All 12 native Assignee mappings are verified against actual accounts: `admin`, `taubasar.d` and `b.rashiduly`. Dameli’s and Bekzat’s Contributor invitations are sent and awaiting acceptance. The first nine issues are due 24 October 2026, while later implementation epics have no agreed date. Existing research and source-control drafts remain subject to genuine student and supervisor review.
+
+## Technical audit on 23 October
+
+- All 15 publications were rechecked as real and relevant; no replacement was needed. The [source-verification register](../research/source_verification.json) preserves the evidence and access limits. L12 and L13 remain preview-based reviews. Blocked publisher requests and author/repository fallbacks are disclosed rather than described as fresh full-text publisher access.
+- L05 now identifies the lower factuality score specifically as automatic FactCC on DialogSum, rather than independent human verification. Sample and claim locators were corrected; L07's results locator and L08/L15 access notes were clarified. No paper's experiment was replicated, and published scores are not this project's results.
+- A fresh UCI profiling run matched the recorded 41,188 rows, 4,640 positives and archive/CSV hashes. This remains descriptive analysis of a public dataset without audio or legitimate call links.
+- The evaluation plan now preserves connected customer/speaker groups, reports achieved split coverage, separates six-label objection scoring from action-event matching and source-grounded evidence, defines empty-output behavior, and distinguishes raw numeric errors from human-reviewed release checks. Manual/application comparisons use common outputs and four fixed fixture/order sequences. All model and user-study outcomes remain future work.
+- The revised synthetic prototype passed 23 static/Node logic checks, including all 180 dashboard filter combinations. Corrections cover CRM deals without calls, evidence-backed objection review, per-call trails, invalid import state, reset behavior and the narrow-screen role control. These passes do not establish real uploads, authentication, speech recognition or usability with representative users.
+
+Fresh browser verification on 23 October passed at 1280 × 900 and 390 × 844: dashboard, call list, detail and import layouts were inspected, with no page-level horizontal overflow at 390 pixels and the role selector available. Evidence highlighting, empty-text rejection, keyboard saving, Viewer restrictions, missing-evidence blocking, per-call history, simulated retry, invalidated mapping validation and sample reset behaved as specified. Reviewing an objection leaves the next action explicitly draft. No browser warning or error was captured. This does not verify production uploads, authentication, inference or representative-user usability.
