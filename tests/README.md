@@ -8,6 +8,10 @@ node tests/prototype_logic_checks.cjs
 
 The script reads the actual inline JavaScript from `prototype/index.html` and runs it in Node's `vm` with minimal document stubs. It writes no files. A failed assertion exits with an error and identifies the check. It also works when invoked by its full path from another directory.
 
+## GitHub Actions
+
+The [prototype-checks workflow](../.github/workflows/prototype-checks.yml) runs the same command for pull requests, pushes to `main` and manual runs. Check the run attached to the current commit; a local pass or an earlier run is not proof that a later revision passed CI. The workflow does not run browser or future backend/worker tests.
+
 ## Automated prototype coverage
 
 The 23 checks passed on 23 October 2026. Coverage includes:
