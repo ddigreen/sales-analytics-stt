@@ -1,6 +1,6 @@
 # Development of a Sales Analytics System Based on Data and Speech-to-Text Technology
 
-Research and design materials for the 24 October 2026 checkpoint. Prepared research and prototype changes are published as a draft for genuine teammate and supervisor review; [pull request 2](https://github.com/ddigreen/sales-analytics-stt/pull/2) is not merged. The private repository is accessible to Dameli (`daminkavitaminka`); Bekzat (`gojosatorukz`) has been invited. The [YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) contains 12 Open tasks and epics. The Word documents record the 23 October pre-publication snapshot; use GitHub and YouTrack for later changes.
+Research and design materials for the 24 October 2026 checkpoint. Prepared research and prototype changes are published as a draft for genuine teammate and supervisor review; [pull request 2](https://github.com/ddigreen/sales-analytics-stt/pull/2) is not merged. The private repository is accessible to Dameli (`daminkavitaminka`); Bekzat (`gojosatorukz`) has been invited. The [YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) contains 12 Open tasks and epics. The Word documents include the 23 October technical audit and project-status snapshot; use GitHub and YouTrack for later changes.
 
 ## Purpose
 
