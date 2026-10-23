@@ -1,6 +1,6 @@
 # Development of a Sales Analytics System Based on Data and Speech-to-Text Technology
 
-**[Open the live VocaSales prototype](https://vocasales-prototype.dsbkamngldv.chatgpt.site)** — opens in your browser without downloading or signing in. Synthetic demonstration data only.
+**[Open the live VocaSales prototype](https://ddigreen.github.io/vocasales-demo/)** — opens in your browser without downloading or signing in. Synthetic demonstration data only.
 
 Research and design materials for the 24 October 2026 checkpoint. [Pull request 2](https://github.com/ddigreen/sales-analytics-stt/pull/2) was merged into `main` on 23 October 2026; GitHub records approval and merge by `daminkavitaminka`. Earlier draft notes remain as a preparation snapshot. The private repository is accessible to Dameli (`daminkavitaminka`); Bekzat (`gojosatorukz`) has been invited. The [YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) contains 12 Open tasks and epics. The Word documents include the 23 October technical audit and project-status snapshot; use GitHub and YouTrack for later changes.
 
@@ -41,7 +41,7 @@ FastAPI backend, PostgreSQL metadata and search, private local or S3 compatible 
 - [Requirements and acceptance criteria](docs/requirements.csv): 26 prioritized requirements and verifiable acceptance criteria.
 - [Literature matrix](research/literature_matrix.csv), [article register](research/articles.json) and [BibTeX references](research/references.bib): 15 scientific sources and a structured critical review.
 - [Diagrams](diagrams/): editable diagram sources and SVG exports for context, use cases and components.
-- [Live clickable prototype](https://vocasales-prototype.dsbkamngldv.chatgpt.site): hosted synthetic UX mockup; [HTML source](prototype/index.html) and [scenario checks](prototype/README.md).
+- [Live clickable prototype](https://ddigreen.github.io/vocasales-demo/): hosted synthetic UX mockup; [HTML source](prototype/index.html) and [scenario checks](prototype/README.md).
 - [Public data profile](research/public_data_profile.json): actual descriptive results for the public UCI dataset, not STT results.
 - [Planning files](planning/): [12 live YouTrack tasks](planning/youtrack_tasks.csv), [W01–W15 mapping](planning/backlog.csv), interview guide, supervisor feedback log, risk register and Git preparation checklist.
 - [Configuration example](config/.env.example) and [.gitignore](.gitignore): safe configuration placeholders and source control exclusions.
@@ -49,7 +49,7 @@ FastAPI backend, PostgreSQL metadata and search, private local or S3 compatible 
 
 ## Open the UX mockup
 
-**[Open the live VocaSales prototype](https://vocasales-prototype.dsbkamngldv.chatgpt.site)** — no download or installation.
+**[Open the live VocaSales prototype](https://ddigreen.github.io/vocasales-demo/)** — no download or installation.
 
 The hosted page contains only synthetic demonstration data. It runs entirely in the browser; changes reset on reload. The private repository and Word reports are separate from the hosted page.
 
