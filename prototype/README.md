@@ -1,10 +1,14 @@
 # VocaSales UX prototype
 
-**[Open the live prototype](https://vocasales-prototype.dsbkamngldv.chatgpt.site)** — no download or installation. The local HTML remains available for offline review.
+**[Open the live prototype](https://ddigreen.github.io/vocasales-demo/)** — no download or installation. The local HTML remains available for offline review.
 
 Open [index.html](index.html) in a modern browser. No installation, server, credentials, network, real audio or model inference is needed. The temporary product label is VocaSales. Data and multilingual transcript snippets are synthetic. English labels on Russian/Kazakh examples are manually written annotations, not model output. All changes disappear on reload.
 
 The fixture deliberately has 8 calls and 7 CRM deals: C-101 and C-108 share D-101. Revenue and win rate count distinct CRM deals. With All languages selected, matching CRM deals remain included even if they have no call. A specific language restricts deal metrics to deals with a matching-language call; the close-date window is still independent of call recording dates. Closed-deal KPIs use closed_at; call volumes use recorded_at; the open pipeline is explicitly a current snapshot. Outcomes and monetary values are stored in a separate CRM fixture and never inferred from words in the transcript. All amounts are demonstration USD, not actual business results. In the default fixture, won amount is 7300 USD, win rate is 2/3 and current open amount is 10400 USD.
+
+## Navigation
+
+Use Menu in the top bar to collapse or restore the left navigation on desktop. On narrow screens it starts closed and opens as a side drawer. Close it with the arrow, the shaded background, Escape or a navigation choice. Keyboard focus stays within the open mobile drawer; hidden controls are not reachable with Tab. The illustrated role selector remains inside the drawer.
 
 ## Scenarios checked
 
