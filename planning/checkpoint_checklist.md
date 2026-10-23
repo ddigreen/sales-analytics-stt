@@ -6,7 +6,7 @@ Completed research checks: primary-source verification and descriptive analysis 
 
 ## Repository and task setup
 
-The [private repository](https://github.com/ddigreen/sales-analytics-stt) contains the prepared package on a draft branch. [Pull request 1](https://github.com/ddigreen/sales-analytics-stt/pull/1) awaits genuine teammate review and is not merged. Dameli has accepted collaborator access; Bekzat has been invited. Supervisor and committee access still need verification. No submission tag is claimed.
+The [private repository](https://github.com/ddigreen/sales-analytics-stt) contains the prepared package on a draft branch. [Pull request 2](https://github.com/ddigreen/sales-analytics-stt/pull/2) awaits genuine teammate review and is not merged. Dameli has accepted collaborator access; Bekzat has been invited. Supervisor and committee access still need verification. No submission tag is claimed.
 
 The [live YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) contains SASTT-1–SASTT-12. See the [12-row task register](youtrack_tasks.csv) and [W01–W15 mapping](backlog.csv). Each issue records its expected outcome, acceptance criteria, priority and responsible student. The native `Responsible student` field records the actual named student. Native `Assignee` is verified as Diasbek’s `admin` account, displayed as `Diasbek Amangeldiev (ddigreen)`, for SASTT-1, SASTT-6, SASTT-8, SASTT-9 and SASTT-11. The other seven issues remain Unassigned until the real student accounts are mapped. SASTT-1–SASTT-9 are due 24 October 2026; later implementation epic dates are unset. All 12 issues remain Open.
 

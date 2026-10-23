@@ -1,6 +1,6 @@
 # Development of a Sales Analytics System Based on Data and Speech-to-Text Technology
 
-Research and design materials for the 24 October 2026 checkpoint. Prepared research and prototype changes are published as a draft for genuine teammate and supervisor review; [pull request 1](https://github.com/ddigreen/sales-analytics-stt/pull/1) is not merged. The private repository is accessible to Dameli (`daminkavitaminka`); Bekzat (`gojosatorukz`) has been invited. The [YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) contains 12 Open tasks and epics. The Word documents record the 23 October pre-publication snapshot; use GitHub and YouTrack for later changes.
+Research and design materials for the 24 October 2026 checkpoint. Prepared research and prototype changes are published as a draft for genuine teammate and supervisor review; [pull request 2](https://github.com/ddigreen/sales-analytics-stt/pull/2) is not merged. The private repository is accessible to Dameli (`daminkavitaminka`); Bekzat (`gojosatorukz`) has been invited. The [YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) contains 12 Open tasks and epics. The Word documents record the 23 October pre-publication snapshot; use GitHub and YouTrack for later changes.
 
 ## Purpose
 
@@ -65,7 +65,7 @@ There is no runnable backend yet. Application setup, migration, dependency insta
 
 ## Project links and workflow
 
-[YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) · [Current draft pull request](https://github.com/ddigreen/sales-analytics-stt/pull/1) · [Project documentation](docs/)
+[YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) · [Current draft pull request](https://github.com/ddigreen/sales-analytics-stt/pull/2) · [Project documentation](docs/)
 
 [SASTT-1–SASTT-12](planning/youtrack_tasks.csv) are real issues. The [backlog mapping](planning/backlog.csv) maps the 15 earlier W labels to those issues. The `Responsible student` field identifies Diasbek (`ddigreen`), Dameli (`daminkavitaminka`) or Bekzat (`gojosatorukz`). Native YouTrack `Assignee` is verified for SASTT-1, SASTT-6, SASTT-8, SASTT-9 and SASTT-11: Diasbek’s account has login `admin` and display name `Diasbek Amangeldiev (ddigreen)`. The other seven issues remain Unassigned until Dameli’s and Bekzat’s real YouTrack accounts are mapped. Their `Responsible student` fields already identify the correct owners. Native priorities are Major or Critical. SASTT-1–SASTT-9 are due 24 October 2026; implementation epics SASTT-10–SASTT-12 have no agreed due date. All 12 remain Open, and prepared drafts still need substantive student review.
 
