@@ -13,6 +13,14 @@
 
 **Decision gates.** Measure word/character error rates by language, entity/objection extraction precision and recall, end-to-end processing time, and KPI correctness on fixed examples. Record hardware and audio duration. Compare cloud ASR only on the same consented audio and scoring protocol; quotations and public language lists do not establish domain accuracy. If local processing fails the team's measured resource/time constraints, choose a hosted adapter after checking the exact locale, region, feature matrix and cost. Synthetic sales outcomes may validate calculations and interfaces, but cannot establish conversion prediction or causal sales improvement.
 
+## SASTT-4 durability clarification
+
+Review on 23 October 2026 retained all four provisional choices and their three alternatives. FastAPI supports the intended typed API but does not supply the application's role or object-scope policy. PostgreSQL constraints fit explicit links and immutable version metadata; JSONB is for optional model metadata, not a substitute for evidence foreign keys. SQLite remains an offline option and MongoDB is not claimed to lack joins or transactions. Whisper remains a benchmark candidate; hardware, language quality and permitted cloud transfer remain decision gates, with no benchmark winner claimed.
+
+The queued design needs more than a broker and retry flag. Persist each job and outbox event in one PostgreSQL transaction; a dispatcher publishes job IDs to Redis and a recovery scan repairs lost notifications/expired leases. Claims use leases and attempt tokens, results/completion commit atomically, and version promotion checks the expected current version. Initial attempt plus two automatic retries is the shared database budget. Broker duplicates do not reset it. This closes the commit-before-publish and commit-before-acknowledge failure windows described in the [data contract](data_contract.md#durable-processing-and-safe-retries).
+
+This protocol is a proposed application decision. Celery's [task documentation](https://docs.celeryq.dev/en/stable/userguide/tasks.html) distinguishes idempotency, late acknowledgement and worker-loss behavior; its [Redis guide](https://docs.celeryq.dev/en/stable/getting-started/backends-and-brokers/redis.html) warns about visibility-timeout redelivery. Those pages and the framework/database references were checked on 23 October. Integration must pin supported versions, configure acknowledgements/timeouts and run failure injection; no exactly-once transport guarantee or completed recovery test is claimed.
+
 [T1]: https://fastapi.tiangolo.com/features/ "FastAPI features"
 [T2]: https://docs.djangoproject.com/en/6.1/intro/overview/ "Django at a glance"
 [T3]: https://docs.nestjs.com/first-steps "NestJS first steps"
