@@ -1,6 +1,6 @@
 # Development of a Sales Analytics System Based on Data and Speech-to-Text Technology
 
-Research and design materials for the 24 October 2026 checkpoint. This branch is a prepared draft awaiting genuine teammate and supervisor review. The repository is private; Dameli (`daminkavitaminka`) has accepted access, and Bekzat (`gojosatorukz`) has been invited. YouTrack task links will be added after setup. The Word documents record the 23 October pre-publication status; use this repository history for later changes.
+Research and design materials for the 24 October 2026 checkpoint. Prepared research and prototype changes are published as a draft for genuine teammate and supervisor review; [pull request 1](https://github.com/ddigreen/sales-analytics-stt/pull/1) is not merged. The private repository is accessible to Dameli (`daminkavitaminka`); Bekzat (`gojosatorukz`) has been invited. The [YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) contains 12 Open tasks and epics. The Word documents record the 23 October pre-publication snapshot; use GitHub and YouTrack for later changes.
 
 ## Purpose
 
@@ -30,24 +30,24 @@ MVP: CSV imports, explicit call to deal links, asynchronous file processing, tim
 
 ## Proposed technology
 
-FastAPI backend, PostgreSQL metadata and search, private local or S3 compatible object storage, a Python Celery worker with Redis broker, local Whisper family inference and a small web interface. These are design choices pending team and supervisor review, not installed application dependencies. See docs/technology_comparison.md for alternatives and decision gates.
+FastAPI backend, PostgreSQL metadata and search, private local or S3 compatible object storage, a Python Celery worker with Redis broker, local Whisper family inference and a small web interface. These are design choices pending team and supervisor review, not installed application dependencies. See the [technology comparison](docs/technology_comparison.md) for alternatives and decision gates.
 
 ## Files
 
-- docs/research_and_design.docx: 14-page main report covering all 11 assignment components and 15 scientific articles.
-- docs/research_appendices.docx: detailed source analysis, full requirements, data rules, evaluation protocol, backlog, forms and comparison evidence.
-- docs/requirements.csv: 26 prioritized requirements and verifiable acceptance criteria.
-- research/literature_matrix.csv, articles.json and references.bib: 15 scientific sources and a structured critical review.
-- diagrams/: editable diagram sources and SVG exports for context, use cases and components.
-- prototype/index.html: self contained interactive UX mockup using synthetic data.
-- research/public_data_profile.json: actual descriptive results for the public UCI dataset, not STT results.
-- planning/: proposed assigned backlog, interview guide, supervisor feedback log, risk register and Git preparation checklist.
-- config/.env.example and .gitignore: safe configuration placeholders and source control exclusions.
-- src/ and tests/: reserved component locations with implementation notes, not completed application code.
+- [Main report](docs/research_and_design.docx): 14-page main report covering all 11 assignment components and 15 scientific articles.
+- [Research appendices](docs/research_appendices.docx): detailed source analysis, full requirements, data rules, evaluation protocol, backlog, forms and comparison evidence.
+- [Requirements and acceptance criteria](docs/requirements.csv): 26 prioritized requirements and verifiable acceptance criteria.
+- [Literature matrix](research/literature_matrix.csv), [article register](research/articles.json) and [BibTeX references](research/references.bib): 15 scientific sources and a structured critical review.
+- [Diagrams](diagrams/): editable diagram sources and SVG exports for context, use cases and components.
+- [Clickable prototype](prototype/index.html): self contained interactive UX mockup using synthetic data.
+- [Public data profile](research/public_data_profile.json): actual descriptive results for the public UCI dataset, not STT results.
+- [Planning files](planning/): [12 live YouTrack tasks](planning/youtrack_tasks.csv), [W01–W15 mapping](planning/backlog.csv), interview guide, supervisor feedback log, risk register and Git preparation checklist.
+- [Configuration example](config/.env.example) and [.gitignore](.gitignore): safe configuration placeholders and source control exclusions.
+- [Source component locations](src/) and [test notes](tests/): reserved component locations with implementation notes, not completed application code.
 
 ## Open the UX mockup
 
-Open prototype/index.html in a modern browser. It runs locally without installation, network calls or a backend. The sample import loads synthetic fixtures; it does not read customer files or transcribe audio. See prototype/README.md for scenario checks.
+Open [prototype/index.html](prototype/index.html) in a modern browser. It runs locally without installation, network calls or a backend. The sample import loads synthetic fixtures; it does not read customer files or transcribe audio. See the [prototype scenario checks](prototype/README.md).
 
 ## Reproduce the public data analysis
 
@@ -61,8 +61,12 @@ This downloads the UCI public archive over HTTPS and profiles bank-additional-fu
 
 ## Execution and testing of the future application
 
-There is no runnable backend yet. Application setup, migration, dependency installation and test commands must be added when actual components exist. See docs/verification_plan.md for planned tests and baseline comparisons. Do not present folder placeholders or the HTML mockup as an implemented product.
+There is no runnable backend yet. Application setup, migration, dependency installation and test commands must be added when actual components exist. See the [verification plan](docs/verification_plan.md) for planned tests and baseline comparisons. Do not present folder placeholders or the HTML mockup as an implemented product.
 
 ## Project links and workflow
 
-YouTrack: PENDING CREATION AND TEAM ASSIGNMENT. The planning/backlog.csv file is ready for field mapping during import; its local work item labels are not real YouTrack issue IDs. Documentation is in docs/. Supervisor review and interview evidence are pending. Changes are proposed through task branches and pull requests. Main remains the reviewed baseline. Genuine team review, supervisor/committee access and the submission tag remain pending; see planning/git_preparation.md. Never fabricate past commits or attribute initial drafts to individual students.
+[YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) · [Current draft pull request](https://github.com/ddigreen/sales-analytics-stt/pull/1) · [Project documentation](docs/)
+
+[SASTT-1–SASTT-12](planning/youtrack_tasks.csv) are real issues. The [backlog mapping](planning/backlog.csv) maps the 15 earlier W labels to those issues. The `Responsible student` field identifies Diasbek (`ddigreen`), Dameli (`daminkavitaminka`) or Bekzat (`gojosatorukz`). Native YouTrack `Assignee` is verified for SASTT-1, SASTT-6, SASTT-8, SASTT-9 and SASTT-11: Diasbek’s account has login `admin` and display name `Diasbek Amangeldiev (ddigreen)`. The other seven issues remain Unassigned until Dameli’s and Bekzat’s real YouTrack accounts are mapped. Their `Responsible student` fields already identify the correct owners. Native priorities are Major or Critical. SASTT-1–SASTT-9 are due 24 October 2026; implementation epics SASTT-10–SASTT-12 have no agreed due date. All 12 remain Open, and prepared drafts still need substantive student review.
+
+Use the real issue ID in each task branch and commit or request description, and link the change back from YouTrack. Keep `main` as the reviewed baseline by merging only after genuine teammate review. Supervisor/committee access, stakeholder evidence, recording permissions, supervisor feedback, progressive contributions by all three students and the fixed submission tag remain pending; see the [Git preparation checklist](planning/git_preparation.md). Existing publication commits do not establish earlier continuous development or authorship of every prepared draft.
