@@ -8,6 +8,10 @@ node tests/prototype_logic_checks.cjs
 
 The script reads the actual inline JavaScript from `prototype/index.html` and runs it in Node's `vm` with minimal document stubs. It writes no files. A failed assertion exits with an error and identifies the check. It also works when invoked by its full path from another directory.
 
+## GitHub Actions
+
+The [prototype-checks workflow](../.github/workflows/prototype-checks.yml) runs the same command for pull requests, pushes to `main` and manual runs. Check the run attached to the current commit; a local pass or an earlier run is not proof that a later revision passed CI. The workflow does not run browser or future backend/worker tests.
+
 ## Automated prototype coverage
 
 The 23 checks passed on 23 October 2026. Coverage includes:
@@ -23,7 +27,7 @@ The CSS check only confirms that the narrow-screen rule retains the illustrated 
 
 ## Browser regression
 
-A fresh assistant browser check on 23 October 2026 verified Dashboard, Calls, Call review and Import at 1280- and 390-pixel viewport widths. No page overflow was observed at 390 pixels. Source highlighting, blank validation, native keyboard review save, draft next actions, Viewer-disabled controls, the unsupported-objection case, per-call trail isolation, retry, mapping/validation invalidation and reset passed. No console warnings or errors were observed.
+A fresh browser check on 23 October 2026 verified Dashboard, Calls, Call review and Import at 1280- and 390-pixel viewport widths. No page overflow was observed at 390 pixels. Source highlighting, blank validation, native keyboard review save, draft next actions, Viewer-disabled controls, the unsupported-objection case, per-call trail isolation, retry, mapping/validation invalidation and reset passed. No console warnings or errors were observed.
 
 These checks used synthetic records and are not a representative-user study.
 

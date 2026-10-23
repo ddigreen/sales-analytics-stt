@@ -1,6 +1,6 @@
 # Review notes
 
-Assistant technical verification on 22–23 October 2026 covered source records, the evaluation design, descriptive public-data analysis and the synthetic prototype. These checks and corrections are not evidence of individual student authorship, teammate PR approval, supervisor feedback or a representative-user study.
+Technical verification on 22–23 October 2026 covered source records, the evaluation design, descriptive public-data analysis and the synthetic prototype. These checks and corrections are not evidence of individual student authorship, teammate PR approval, supervisor feedback or a representative-user study.
 
 ## Source and interpretation checks
 
@@ -30,7 +30,9 @@ The Word report was rendered and its page images checked for table overflow, spl
 
 ## Items for the team
 
-Confirm the working English spellings and proposed responsibility allocation. Read the papers assigned to each member and retain notes on how they affect the design. Collect the 3–5 representative discussions or actual client agreement, obtain recording permissions, and record the supervisor's comments and resulting changes. The prepared package is now published on a draft branch in the private GitHub repository; [pull request 2](https://github.com/ddigreen/sales-analytics-stt/pull/2) is unmerged. The [live YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) contains 12 Open issues with priorities, responsible-student fields and checkpoint due dates. Native Assignee mappings are verified for all 12 issues: Diasbek’s five use `admin`, Dameli’s three use `taubasar.d`, and Bekzat’s four use `b.rashiduly`. The two Contributor accounts are provisioned and invited, but Dameli’s and Bekzat’s invitation acceptance remains pending. Substantive student review, complete reviewer access and genuine development/review evidence remain pending. The current report remains a research and design draft until those evidence requirements are met.
+Confirm the working English spellings and proposed responsibility allocation. Each member should read their assigned papers and retain notes explaining how the evidence affects the design. Collect the required representative discussions or actual-client agreement, obtain recording permissions, and record the supervisor's comments and resulting changes.
+
+The prepared baseline and later prototype changes are merged into `main` through PRs 2, 3 and 4. GitHub records are described in the [current checkpoint checklist](../planning/checkpoint_checklist.md), including the distinction between recorded approvals and independent student review. Substantive student review, complete reviewer access and genuine development/review evidence remain outstanding; merging prepared materials does not complete those evidence requirements.
 
 ## Short report revision
 
@@ -38,7 +40,7 @@ The main report was reduced from 25 to 14 pages. After the APA 7 revision it rem
 
 ## Live task traceability
 
-The [12-row live register](../planning/youtrack_tasks.csv) records real SASTT issue IDs and URLs, native Major/Critical priorities, responsible students, Open states and due dates. The [backlog mapping](../planning/backlog.csv) preserves all W01–W15 labels and maps them to those issues. GitHub handles identify the named students. All 12 native Assignee mappings are verified against actual accounts: `admin`, `taubasar.d` and `b.rashiduly`. Dameli’s and Bekzat’s Contributor invitations are sent and awaiting acceptance. The first nine issues are due 24 October 2026, while later implementation epics have no agreed date. Existing research and source-control drafts remain subject to genuine student and supervisor review.
+The [12-row register](../planning/youtrack_tasks.csv) records real SASTT issue IDs and URLs, native priorities, responsible students, states and due dates. The [backlog mapping](../planning/backlog.csv) preserves W01–W15 and their issue links. Native Assignee mappings are verified for `admin`, `taubasar.d` and `b.rashiduly`. Use [checkpoint status](../planning/checkpoint_checklist.md) for the last verified issue states, invitation status and remaining evidence; use live YouTrack for later changes.
 
 ## Technical audit on 23 October
 
@@ -52,4 +54,8 @@ Fresh browser verification on 23 October passed at 1280 × 900 and 390 × 844: d
 
 ## APA 7 revision on 23 October
 
-Both Word documents now use author–date citations and identical alphabetized reference lists: 15 scientific publications, one public dataset and 32 official documentation sources. Each of the 48 entries is cited in each document. Full author lists, source-specific journal/proceedings details, DOI/URL links, same-author/year suffixes, italics, double spacing and 0.5-inch hanging indents were checked. L01–L15 remain analysis IDs only; T01–T22 remain test IDs. The main report stays at 14 pages by shortening repeated summaries and placing complete comparison matrices in Appendix G. The appendices are 24 pages; all complete requirements and detailed source analyses remain available. All rendered pages were inspected. These are assistant formatting and technical checks, not student or supervisor approval.
+Both Word documents now use author–date citations and identical alphabetized reference lists: 15 scientific publications, one public dataset and 32 official documentation sources. Each of the 48 entries is cited in each document. Full author lists, source-specific journal/proceedings details, DOI/URL links, same-author/year suffixes, italics, double spacing and 0.5-inch hanging indents were checked. L01–L15 remain analysis IDs only; T01–T22 remain test IDs. The main report stays at 14 pages by shortening repeated summaries and placing complete comparison matrices in Appendix G. The appendices are 24 pages; all complete requirements and detailed source analyses remain available. All rendered pages were inspected. These formatting and technical checks do not establish student or supervisor approval.
+
+## Backend design amendment
+
+[PR 5](https://github.com/ddigreen/sales-analytics-stt/pull/5) was merged after Diasbek's review on 23 October. The [design review](backend_design_review.md) records eight findings and decisions across all 26 requirements. It updates the [data contract](data_contract.md), ten acceptance criteria in the [requirements register](requirements.csv), the evaluation plan and component diagram. Both the branch and its integration with the prototype baseline passed all 23 checks. The Word reports remain dated research snapshots; this amendment supplies the later design decisions. No implemented backend or completed speech benchmark is claimed.

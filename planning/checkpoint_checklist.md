@@ -1,24 +1,41 @@
 # Status for 24 October 2026
 
-Prepared deliverables: proposal and scope; critical review and structured matrix of 15 scientific sources; four-system comparison; technology alternatives; 26 prioritized requirements with acceptance criteria; three architectural diagrams with editable sources and readable exports; clickable synthetic UX mockup; evaluation plan; proposed responsibilities, milestones, risks and dependencies.
+Current status record, updated on 23 October 2026. Use this checklist for submission readiness; the Word reports retain their dated research and technical-audit snapshot. The [documentation index](../docs/README.md) maps all 11 assignment components to the files.
 
-Completed research checks: primary-source verification and descriptive analysis of the public UCI bank-additional-full.csv. These checks do not establish local user demand or speech performance.
+## Prepared and technically checked
 
-The 23 October technical audit rechecked all 15 sources, corrected the evaluation protocol and fixed the synthetic prototype. Its 23 logic checks, 180 filter combinations and desktop/mobile browser checks passed; see [review notes](../docs/review_notes.md). Following the APA 7 citation revision, the main report is 14 pages with 24 pages of appendices; both contain the same 48 complete references. These checks do not replace genuine teammate or supervisor review. Model benchmarking and a representative-user usability study are planned evaluation work, not completed checkpoint results.
+- Proposal and scope; a critical review of 15 scientific publications; a four-system comparison; technology alternatives; 26 prioritized requirements with acceptance criteria.
+- System context, use-case and component diagrams, with editable sources and readable exports.
+- A [live synthetic prototype](https://ddigreen.github.io/vocasales-demo/), evaluation plan, responsibilities, milestones, risks and dependencies.
+- Primary-source verification and a reproduced UCI data profile: 41,188 records and 4,640 positive outcomes. This analysis establishes neither local demand nor speech performance.
+- The 23 October prototype audit passed 23 logic checks, including 180 filter combinations, plus desktop/mobile browser checks. See [test scope](../tests/README.md) and [review notes](../docs/review_notes.md).
+- APA 7 citations and references in the 14-page main report and 24-page appendices. Both contain the same 48 references.
 
-## Repository and task setup
+Technical checks do not replace genuine student or supervisor review. Model benchmarks and representative-user study results remain future evaluation work.
 
-The [private repository](https://github.com/ddigreen/sales-analytics-stt) contains the prepared package on a draft branch. [Pull request 2](https://github.com/ddigreen/sales-analytics-stt/pull/2) awaits genuine teammate review and is not merged. Dameli has accepted collaborator access; Bekzat has been invited. Supervisor and committee access still need verification. No submission tag is claimed.
+## Repository and review records
 
-The [live YouTrack project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) contains SASTT-1–SASTT-12. See the [12-row task register](youtrack_tasks.csv) and [W01–W15 mapping](backlog.csv). Each issue records its expected outcome, acceptance criteria, priority and responsible student. The native `Responsible student` field records the actual named student. Native `Assignee` is verified for all 12 issues: `admin` for Diasbek’s five, `taubasar.d` for Dameli’s three and `b.rashiduly` for Bekzat’s four. Dameli’s and Bekzat’s Contributor accounts are provisioned and invited; invitation acceptance is still pending for both. SASTT-1–SASTT-9 are due 24 October 2026; later implementation epic dates are unset. All 12 issues remain Open.
+The [private repository](https://github.com/ddigreen/sales-analytics-stt) contains the research baseline and prototype on `main`. PRs [2](https://github.com/ddigreen/sales-analytics-stt/pull/2), [3](https://github.com/ddigreen/sales-analytics-stt/pull/3) and [4](https://github.com/ddigreen/sales-analytics-stt/pull/4) were merged on 23 October 2026. GitHub records approvals for these changes, including technical review records. Substantive independent student and supervisor review remain separate requirements and are still pending.
+
+[PR 5](https://github.com/ddigreen/sales-analytics-stt/pull/5) was merged on 23 October after Diasbek's recorded review. It adds Bekzat's eight backend design findings and decisions for all 26 requirements; see the [design amendment](../docs/backend_design_review.md). This is proposed design work, not an implemented backend. SASTT-4 remains Open for its remaining criteria, including Dameli's substantive review.
+
+Dameli and Bekzat have GitHub collaborator access; Bekzat published the task branch and PR 5. Supervisor and committee access still need verification. The last repository inspection showed `main` without protection; the [review-before-merge process](../CONTRIBUTING.md) is not verified as technically enforced. No fixed submission tag has been confirmed.
+
+## YouTrack snapshot
+
+The [live project](https://sales-analytics-stt-team.youtrack.cloud/projects/SASTT) contains SASTT-1–SASTT-12. See the [task register](youtrack_tasks.csv) and [W01–W15 mapping](backlog.csv). Each issue has an expected outcome, acceptance criteria, priority and responsible student. Native Assignee mappings are verified: `admin` for Diasbek's five issues, `taubasar.d` for Dameli's three and `b.rashiduly` for Bekzat's four.
+
+At the last check on 23 October, all 12 issues were Open. SASTT-1–SASTT-9 are due 24 October 2026; later implementation epic dates are unset. Dameli's and Bekzat's YouTrack Contributor accounts are provisioned and invited, but invitation acceptance remains unverified. A GitHub invitation and a YouTrack invitation are separate access steps. Do not close an issue until all its acceptance criteria have evidence.
 
 ## Evidence still required
 
-- Complete 3–5 representative discussions or obtain a substantive actual-client agreement; keep permitted, deidentified findings and resulting requirement decisions.
-- Confirm recording/data authorization and legitimate call-to-deal identifiers.
-- Have the named students review and own the drafts, make meaningful changes where justified and explain their work. Publication commits alone do not prove progressive contributions by all three members.
-- Obtain the supervisor's substantive feedback and record the resulting decisions and revisions.
-- Finish repository reviewer access and confirm Dameli’s and Bekzat’s YouTrack invitation acceptance; verify actual issue-to-branch-to-commit/PR links.
-- Obtain genuine teammate review before merge, address comments, and tag the exact reviewed submitted commit `pre-defense-1`. Report outstanding gaps explicitly.
+- [ ] Complete 3–5 representative discussions or obtain a substantive actual-client agreement. Keep permitted, deidentified findings and link resulting requirement decisions. Confirm the evidence route with the supervisor if access is unavailable.
+- [ ] Confirm recording/data authorization and legitimate call-to-deal identifiers before collecting or processing real recordings.
+- [ ] Have the named students substantively review and explain the drafts, make justified changes and retain their actual contribution/review evidence. Publication commits alone do not demonstrate progressive work by all three members.
+- [ ] Obtain the supervisor's substantive comments and record decisions, resulting revisions and confirmation in the [review log](supervisor_review_log.md).
+- [ ] Verify supervisor/committee access and both outstanding YouTrack invitation acceptances.
+- [ ] Verify task-to-branch-to-commit/PR links and substantive teammate feedback on the current changes.
+- [ ] After review and revision, tag the exact submitted commit `pre-defense-1`; provide its link, completed work, limitations and outstanding tasks. Keep that tag fixed after submission.
+- [ ] Confirm the submission time and rehearse a real task-to-change-to-review trace, the prototype and the existing test command.
 
-Before 24 October, confirm the official submission time, collect available genuine evidence, review and revise the materials, verify links and rehearse one real task-to-change-to-review trace. Do not close an evidence task because a blank form or prepared draft exists. A complete application is not required at this checkpoint.
+A blank form, prepared draft or created task is not completed evidence. A complete application is not required at this checkpoint.

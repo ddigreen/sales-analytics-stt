@@ -2,7 +2,7 @@
 
 The proposed backend has a sound separation of imported sales facts, call evidence and human review, but the baseline left several failure and concurrency rules underspecified. This change makes team ownership, atomic imports, durable job recovery, version promotion and deletion races explicit. It is a design amendment for teammate review, not an implemented backend or a claim that backend acceptance tests passed.
 
-Prepared on 23 October 2026 for Bekzat (`gojosatorukz`) with Codex assistance. Task: [SASTT-4](https://sales-analytics-stt-team.youtrack.cloud/issue/SASTT-4). The live task was read under Bekzat's `b.rashiduly` account; its five acceptance criteria agree with the review scope below. Dameli's substantive review is still required before merge. Publishing this assisted review is not evidence of supervisor feedback, independent student review, authorized pilot data or completed implementation.
+Backend design review recorded on 23 October 2026. Responsible student: Bekzat (`gojosatorukz`). Task: [SASTT-4](https://sales-analytics-stt-team.youtrack.cloud/issue/SASTT-4). The task's five acceptance criteria define the review scope below. [PR 5](https://github.com/ddigreen/sales-analytics-stt/pull/5) was merged after Diasbek's review; Dameli's substantive review remains pending for task acceptance. This design amendment does not establish supervisor feedback, authorized pilot data or completed implementation.
 
 ## Baseline and material inspected
 
@@ -98,7 +98,7 @@ The [context Mermaid source](../diagrams/01_system_context.mmd) and its SVG were
 
 The [component source](../diagrams/02_component_architecture.mmd), [SVG](../diagrams/02_component_architecture.svg) and [PNG](../diagrams/02_component_architecture.png) now include the dispatcher/recovery boundary, job/outbox/lease metadata and fenced result completion. All original API, storage, queue, ASR, extraction, deletion and offline-evaluation responsibilities remain. The PNG was rerendered from the SVG using the bundled Node runtime and sharp and visually inspected. The Mermaid source and manual SVG express matching nodes/relationships; they need not have identical layout. Inference stays asynchronous, audio stays private, and deletion remains reconciled. These are proposed components, not deployed services.
 
-The two Word reports are unchanged baseline snapshots. This Markdown review, the updated contracts/CSV and component exports are the explicit SASTT-4 amendment; do not claim the embedded Word diagram or acceptance tables already include it. Integrate the amendment into the report after teammate decisions, with normal document visual verification.
+The two Word reports retain the baseline design content. This Markdown review, the updated contracts/CSV and component exports are the explicit SASTT-4 amendment; do not claim the embedded Word diagram or acceptance tables already include it. Integrate the amendment into the report after teammate decisions, with normal document visual verification.
 
 ## Verification actually completed
 
@@ -121,4 +121,4 @@ No database authorization, real CSV/audio import, queue recovery, transcript per
 | Team + supervisor / SASTT-7 | Validate proposed business permissions, scope/quality targets and retained design decisions; record genuine feedback and resulting revisions. This review does not satisfy supervision. |
 | Team / evidence follow-up | Confirm Salesloft new-product language/feature availability if used in the final comparison. Keep indexed-access and product-version caveats meanwhile. |
 
-Open the task-linked PR against `main` and request **Dameli (`daminkavitaminka`)** as required by acceptance criterion 5. Add the PR link to SASTT-4. Keep the issue Open until review/acceptance evidence exists; do not merge, close SASTT-3/SASTT-7 or mark SASTT-10 implemented as a side effect of this contribution.
+[PR 5](https://github.com/ddigreen/sales-analytics-stt/pull/5) was merged into `main` on 23 October after Diasbek's approval. Dameli (`daminkavitaminka`) remains the requested reviewer for acceptance criterion 5. Keep SASTT-4 Open until its remaining substantive review and acceptance evidence exist. This documentation merge does not close SASTT-3/SASTT-7 or mark SASTT-10 implemented.
