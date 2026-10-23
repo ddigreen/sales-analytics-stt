@@ -1,6 +1,6 @@
 # Review notes
 
-Assistant technical verification on 22–23 October 2026 covered source records, the evaluation design, descriptive public-data analysis and the synthetic prototype. These checks and corrections are not evidence of individual student authorship, teammate PR approval, supervisor feedback or a representative-user study.
+Technical verification on 22–23 October 2026 covered source records, the evaluation design, descriptive public-data analysis and the synthetic prototype. These checks and corrections are not evidence of individual student authorship, teammate PR approval, supervisor feedback or a representative-user study.
 
 ## Source and interpretation checks
 
@@ -32,7 +32,7 @@ The Word report was rendered and its page images checked for table overflow, spl
 
 Confirm the working English spellings and proposed responsibility allocation. Each member should read their assigned papers and retain notes explaining how the evidence affects the design. Collect the required representative discussions or actual-client agreement, obtain recording permissions, and record the supervisor's comments and resulting changes.
 
-The prepared baseline and later prototype changes are merged into `main` through PRs 2, 3 and 4. GitHub records are described in the [current checkpoint checklist](../planning/checkpoint_checklist.md), including the limits of Codex-assisted approvals. Substantive student review, complete reviewer access and genuine development/review evidence remain outstanding; merging prepared materials does not complete those evidence requirements.
+The prepared baseline and later prototype changes are merged into `main` through PRs 2, 3 and 4. GitHub records are described in the [current checkpoint checklist](../planning/checkpoint_checklist.md), including the distinction between recorded approvals and independent student review. Substantive student review, complete reviewer access and genuine development/review evidence remain outstanding; merging prepared materials does not complete those evidence requirements.
 
 ## Short report revision
 
@@ -54,4 +54,8 @@ Fresh browser verification on 23 October passed at 1280 × 900 and 390 × 844: d
 
 ## APA 7 revision on 23 October
 
-Both Word documents now use author–date citations and identical alphabetized reference lists: 15 scientific publications, one public dataset and 32 official documentation sources. Each of the 48 entries is cited in each document. Full author lists, source-specific journal/proceedings details, DOI/URL links, same-author/year suffixes, italics, double spacing and 0.5-inch hanging indents were checked. L01–L15 remain analysis IDs only; T01–T22 remain test IDs. The main report stays at 14 pages by shortening repeated summaries and placing complete comparison matrices in Appendix G. The appendices are 24 pages; all complete requirements and detailed source analyses remain available. All rendered pages were inspected. These are assistant formatting and technical checks, not student or supervisor approval.
+Both Word documents now use author–date citations and identical alphabetized reference lists: 15 scientific publications, one public dataset and 32 official documentation sources. Each of the 48 entries is cited in each document. Full author lists, source-specific journal/proceedings details, DOI/URL links, same-author/year suffixes, italics, double spacing and 0.5-inch hanging indents were checked. L01–L15 remain analysis IDs only; T01–T22 remain test IDs. The main report stays at 14 pages by shortening repeated summaries and placing complete comparison matrices in Appendix G. The appendices are 24 pages; all complete requirements and detailed source analyses remain available. All rendered pages were inspected. These formatting and technical checks do not establish student or supervisor approval.
+
+## Backend design amendment
+
+[PR 5](https://github.com/ddigreen/sales-analytics-stt/pull/5) was merged after Diasbek's review on 23 October. The [design review](backend_design_review.md) records eight findings and decisions across all 26 requirements. It updates the [data contract](data_contract.md), ten acceptance criteria in the [requirements register](requirements.csv), the evaluation plan and component diagram. Both the branch and its integration with the prototype baseline passed all 23 checks. The Word reports remain dated research snapshots; this amendment supplies the later design decisions. No implemented backend or completed speech benchmark is claimed.
