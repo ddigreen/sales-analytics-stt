@@ -2,7 +2,7 @@
 
 The proposed backend has a sound separation of imported sales facts, call evidence and human review, but the baseline left several failure and concurrency rules underspecified. This change makes team ownership, atomic imports, durable job recovery, version promotion and deletion races explicit. It is a design amendment for teammate review, not an implemented backend or a claim that backend acceptance tests passed.
 
-Prepared on 23 October 2026 for Bekzat (`gojosatorukz`) with Codex assistance. Task: [SASTT-4](https://sales-analytics-stt-team.youtrack.cloud/issue/SASTT-4). The live task was read under Bekzat's `b.rashiduly` account; its five acceptance criteria agree with the review scope below. Dameli's substantive review is still required before merge. Publishing this assisted review is not evidence of supervisor feedback, independent student review, authorized pilot data or completed implementation.
+Prepared on 23 October 2026 for Bekzat (`gojosatorukz`). Task: [SASTT-4](https://sales-analytics-stt-team.youtrack.cloud/issue/SASTT-4). The live task was read under Bekzat's `b.rashiduly` account; its five acceptance criteria agree with the review scope below. Dameli's substantive review is still required before merge. Publishing this technical review is not evidence of supervisor feedback, independent student review, authorized pilot data or completed implementation.
 
 ## Baseline and material inspected
 
