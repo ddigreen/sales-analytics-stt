@@ -1,6 +1,6 @@
 # VocaSales UX prototype
 
-**[Open the live prototype](https://vocasales-prototype.dsbkamngldv.chatgpt.site)** — no download or installation. The local HTML remains available for offline review.
+**[Open the live prototype](https://ddigreen.github.io/vocasales-demo/)** — no download or installation. The local HTML remains available for offline review.
 
 Open [index.html](index.html) in a modern browser. No installation, server, credentials, network, real audio or model inference is needed. The temporary product label is VocaSales. Data and multilingual transcript snippets are synthetic. English labels on Russian/Kazakh examples are manually written annotations, not model output. All changes disappear on reload.
 
@@ -26,4 +26,4 @@ Automated interaction checks were run in a temporary headless browser, with desk
 
 On 23 October 2026, 23 Node-based logic checks passed, including all 180 dashboard filter combinations, UTC-to-Almaty date boundaries, distinct deals, a CRM deal with no calls, missing evidence, per-call review isolation, Viewer handler guards, failed-job retry, fixture validation and reapplication. Run `node tests/prototype_logic_checks.cjs` from the repository root; see [verification materials](../tests/README.md) for the scope.
 
-A fresh assistant browser regression on the same revision checked Dashboard, Calls, Call review and Import at 1280- and 390-pixel viewport widths. The 390-pixel page had no horizontal overflow and the role selector remained visible. Checks passed for timestamp highlighting, blank review validation, keyboard review submission, draft next actions, disabled Viewer edits, blocked unsupported objections, call-specific review trails, failed-job retry, mapping changes, stale validation and reset. No console warnings or errors were observed. These were synthetic prototype checks; no representative-user study, backend security test or speech evaluation was performed.
+A fresh browser regression on the same revision checked Dashboard, Calls, Call review and Import at 1280- and 390-pixel viewport widths. The 390-pixel page had no horizontal overflow and the role selector remained visible. Checks passed for timestamp highlighting, blank review validation, keyboard review submission, draft next actions, disabled Viewer edits, blocked unsupported objections, call-specific review trails, failed-job retry, mapping changes, stale validation and reset. No console warnings or errors were observed. These were synthetic prototype checks; no representative-user study, backend security test or speech evaluation was performed.
