@@ -1,6 +1,6 @@
 # Review notes
 
-Assistant technical verification on 22–23 October 2026 covered source records, the evaluation design, descriptive public-data analysis and the synthetic prototype. These checks and corrections are not evidence of individual student authorship, teammate PR approval, supervisor feedback or a representative-user study.
+Technical verification on 22–23 October 2026 covered source records, the evaluation design, descriptive public-data analysis and the synthetic prototype. These checks and corrections are not evidence of individual student authorship, teammate PR approval, supervisor feedback or a representative-user study.
 
 ## Source and interpretation checks
 
@@ -52,4 +52,4 @@ Fresh browser verification on 23 October passed at 1280 × 900 and 390 × 844: d
 
 ## APA 7 revision on 23 October
 
-Both Word documents now use author–date citations and identical alphabetized reference lists: 15 scientific publications, one public dataset and 32 official documentation sources. Each of the 48 entries is cited in each document. Full author lists, source-specific journal/proceedings details, DOI/URL links, same-author/year suffixes, italics, double spacing and 0.5-inch hanging indents were checked. L01–L15 remain analysis IDs only; T01–T22 remain test IDs. The main report stays at 14 pages by shortening repeated summaries and placing complete comparison matrices in Appendix G. The appendices are 24 pages; all complete requirements and detailed source analyses remain available. All rendered pages were inspected. These are assistant formatting and technical checks, not student or supervisor approval.
+Both Word documents now use author–date citations and identical alphabetized reference lists: 15 scientific publications, one public dataset and 32 official documentation sources. Each of the 48 entries is cited in each document. Full author lists, source-specific journal/proceedings details, DOI/URL links, same-author/year suffixes, italics, double spacing and 0.5-inch hanging indents were checked. L01–L15 remain analysis IDs only; T01–T22 remain test IDs. The main report stays at 14 pages by shortening repeated summaries and placing complete comparison matrices in Appendix G. The appendices are 24 pages; all complete requirements and detailed source analyses remain available. All rendered pages were inspected. These are formatting and technical checks, not student or supervisor approval.
