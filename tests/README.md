@@ -23,7 +23,7 @@ The CSS check only confirms that the narrow-screen rule retains the illustrated 
 
 ## Browser regression
 
-A fresh assistant browser check on 23 October 2026 verified Dashboard, Calls, Call review and Import at 1280- and 390-pixel viewport widths. No page overflow was observed at 390 pixels. Source highlighting, blank validation, native keyboard review save, draft next actions, Viewer-disabled controls, the unsupported-objection case, per-call trail isolation, retry, mapping/validation invalidation and reset passed. No console warnings or errors were observed.
+A fresh browser check on 23 October 2026 verified Dashboard, Calls, Call review and Import at 1280- and 390-pixel viewport widths. No page overflow was observed at 390 pixels. Source highlighting, blank validation, native keyboard review save, draft next actions, Viewer-disabled controls, the unsupported-objection case, per-call trail isolation, retry, mapping/validation invalidation and reset passed. No console warnings or errors were observed.
 
 These checks used synthetic records and are not a representative-user study.
 
